@@ -83,7 +83,7 @@
         },
         "sectionsDict": {
           "PrizeCards": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER", "displayedTitle": "Prize Cards" },
-          "Exile": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
+          "LostZone": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
           "ActivePokemon": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
           "YGOMonsters": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
           "BenchedPokemon": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
