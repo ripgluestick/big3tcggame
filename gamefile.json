@@ -2,26 +2,42 @@
   "name": "Big 3 TCG",
   "cardRotation": 90,
   "deckBuilding": {
-    "mainFilters": ["type", "cost"],
+    "mainFilters": [
+      "type",
+      "cost"
+    ],
     "formats": [
       {
         "title": "Big3TCG",
         "gameplay": "Standard",
-        "customCategories": ["YE", "YD", "PM", "CMDR"]
+        "customCategories": [
+          "YE",
+          "YD",
+          "CMDR"
+        ]
       }
     ]
   },
   "gameplay": {
     "Standard": {
       "defaultNotes": "P1 LP: 8000\nP2 LP: 8000",
-      "countersStartingValues": [8000],
+      "countersStartingValues": [
+        8000
+      ],
       "hideFacedDownCards": true,
       "mulligan": {
         "startingHandSize": 0,
-        "mulliganCount": { "max": 1 },
+        "mulliganCount": {
+          "max": 0
+        },
         "mulliganCycle": {
-          "steps": ["toBottom", "draw"],
-          "selectionRange": { "min": 0 }
+          "steps": [
+            "toBottom",
+            "draw"
+          ],
+          "selectionRange": {
+            "min": 0
+          }
         }
       },
       "newTurn": {
@@ -31,7 +47,11 @@
       },
       "beforeGameStart": {
         "initialBoardSetup": [
-          { "drawFromTop": "Deck", "count": 0, "destination": "Hand" }
+          {
+            "drawFromTop": "Deck",
+            "count": 0,
+            "destination": "Hand"
+          }
         ]
       },
       "sections": {
@@ -41,13 +61,21 @@
             {
               "direction": "column",
               "content": [
-                { "section": "PrizeCards" },
-                { "section": "LostZone" },
+                {
+                  "section": "PrizeCards"
+                },
+                {
+                  "section": "LostZone"
+                },
                 {
                   "direction": "row",
                   "content": [
-                    { "section": "YDeck" },
-                    { "section": "YExtraDeck" }
+                    {
+                      "section": "YD"
+                    },
+                    {
+                      "section": "YE"
+                    }
                   ]
                 }
               ]
@@ -58,21 +86,31 @@
                 {
                   "direction": "row",
                   "content": [
-                    { "section": "ActivePokemon" },
-                    { "section": "YGOMonsters" }
+                    {
+                      "section": "ActivePokemon"
+                    },
+                    {
+                      "section": "YGOMonsters"
+                    }
                   ]
                 },
                 {
                   "direction": "row",
                   "content": [
-                    { "section": "BenchedPokemon" },
-                    { "section": "YGOSpellTrap" }
+                    {
+                      "section": "BenchedPokemon"
+                    },
+                    {
+                      "section": "YGOSpellTrap"
+                    }
                   ]
                 },
                 {
                   "direction": "row",
                   "content": [
-                    { "section": "MTG" }
+                    {
+                      "section": "MTG"
+                    }
                   ]
                 }
               ]
@@ -83,8 +121,12 @@
                 {
                   "direction": "row",
                   "content": [
-                    { "section": "Stadium" },
-                    { "section": "FieldSp" }
+                    {
+                      "section": "Stadium"
+                    },
+                    {
+                      "section": "FieldSp"
+                    }
                   ]
                 }
               ]
@@ -92,22 +134,59 @@
           ]
         },
         "sectionsDict": {
-          "PrizeCards": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER", "displayedTitle": "Prize Cards" },
-          "LostZone": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
-          "ActivePokemon": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
-          "YGOMonsters": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
-          "BenchedPokemon": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
-          "YGOSpellTrap": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER" },
-          "MTG": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
-          "Stadium": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
-          "FieldSp": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
-          "YDeck": {
+          "PrizeCards": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "displayedTitle": "Prize Cards"
+          },
+          "LostZone": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER"
+          },
+          "ActivePokemon": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER"
+          },
+          "YGOMonsters": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER"
+          },
+          "BenchedPokemon": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER"
+          },
+          "YGOSpellTrap": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "CENTER"
+          },
+          "MTG": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER"
+          },
+          "Stadium": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER"
+          },
+          "FieldSp": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER"
+          },
+          "YD": {
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "DECK",
             "displayedTitle": "Y Deck"
           },
-          "YExtraDeck": {
+          "YE": {
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "DECK",
