@@ -42,7 +42,14 @@
               "direction": "column",
               "content": [
                 { "section": "PrizeCards" },
-                { "section": "LostZone" }
+                { "section": "LostZone" },
+                {
+                  "direction": "row",
+                  "content": [
+                    { "section": "YDeck" },
+                    { "section": "YExtraDeck" }
+                  ]
+                }
               ]
             },
             {
@@ -79,6 +86,12 @@
                     { "section": "Stadium" },
                     { "section": "FieldSp" }
                   ]
+                },
+                {
+                  "direction": "row",
+                  "content": [
+                    { "section": "Commander" }
+                  ]
                 }
               ]
             }
@@ -93,7 +106,20 @@
           "YGOSpellTrap": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER" },
           "MTG": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
           "Stadium": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
-          "FieldSp": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" }
+          "FieldSp": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
+          "Commander": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER", "displayedTitle": "Commander" },
+          "YDeck": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "DECK",
+            "displayedTitle": "Y Deck"
+          },
+          "YExtraDeck": {
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "DECK",
+            "displayedTitle": "Extra deck"
+          }
         }
       }
     }
