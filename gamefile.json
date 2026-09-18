@@ -188,13 +188,19 @@
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "DECK",
-            "displayedTitle": "Y Deck"
+            "displayedTitle": "Y Deck",
+            "drawDestinations": {
+              "_default": "Hand"
+            }
           },
           "YExtraDeck": {
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "DECK",
-            "displayedTitle": "Extra deck"
+            "displayedTitle": "Extra deck",
+            "drawDestinations": {
+              "_default": "Hand"
+            }
           },
           "DeckSetup": {
             "type": "custom",
@@ -203,13 +209,25 @@
               "children": [
                 {
                   "type": "button",
+                  "children": "Draw Y Deck",
+                  "onClick": "try {\n  if ((cards.YDeck || []).length === 0) {\n    functions.chatLog('Y Deck is empty');\n  } else {\n    await functions.drawFromExtraDeck('YDeck', 1, false, 'Hand');\n  }\n} catch (e) {\n  functions.chatLog('[DeckSetup] draw ERROR: ' + (e && e.message ? e.message : e));\n}"
+                },
+                {
+                  "type": "button",
+                  "children": "Draw Extra Deck",
+                  "onClick": "try {\n  if ((cards.YExtraDeck || []).length === 0) {\n    functions.chatLog('Extra Deck is empty');\n  } else {\n    await functions.drawFromExtraDeck('YExtraDeck', 1, false, 'Hand');\n  }\n} catch (e) {\n  functions.chatLog('[DeckSetup] draw ERROR: ' + (e && e.message ? e.message : e));\n}"
+                },
+                {
+                  "type": "button",
                   "children": "Sort Y decks",
-                  "onClick": "const MAP = { YD: 'YDeck', YE: 'YExtraDeck' };\nconst dests = Object.values(MAP);\nconst groups = {};\nlet total = 0;\nfor (const sec of ['Deck', 'Sideboard']) {\n  if (dests.includes(sec)) continue;\n  for (const c of (cards[sec] || [])) {\n    const dest = MAP[functions.getCardData(c)?.type];\n    if (!dest) continue;\n    if (!groups[dest]) groups[dest] = [];\n    groups[dest].push(c);\n    total++;\n  }\n}\nfor (const dest of Object.keys(groups)) {\n  await functions.moveCards(groups[dest], dest, { noLogs: true });\n}\nif (groups.YDeck) await functions.shuffleSection('YDeck');\nawait functions.repositionCards();\nfunctions.chatLog('Deck setup: moved ' + total + ' cards. Sections seen: ' + Object.keys(cards).map(k => k + '=' + (cards[k] || []).length).join(', '));"
+                  "onClick": "try {\n  functions.chatLog('[DeckSetup] button fired');\n  const MAP = { YD: 'YDeck', YE: 'YExtraDeck' };\n  const dests = Object.values(MAP);\n  const groups = {};\n  const types = {};\n  let total = 0;\n  for (const sec of ['Deck', 'Sideboard']) {\n    if (dests.includes(sec)) continue;\n    for (const c of (cards[sec] || [])) {\n      const d = functions.getCardData(c);\n      const t = d?.type || d?.face?.front?.type;\n      types[t] = (types[t] || 0) + 1;\n      const dest = MAP[t];\n      if (!dest) continue;\n      if (!groups[dest]) groups[dest] = [];\n      groups[dest].push(c);\n      total++;\n    }\n  }\n  for (const dest of Object.keys(groups)) {\n    await functions.moveCards(groups[dest], dest, { noLogs: true });\n  }\n  if (groups.YDeck) await functions.shuffleSection('YDeck');\n  if (total > 0) await functions.repositionCards();\n  functions.chatLog('[DeckSetup] moved ' + total + ' | sections: ' + Object.keys(cards).map(k => k + '=' + (cards[k] || []).length).join(', ') + ' | types: ' + Object.keys(types).map(k => k + '=' + types[k]).join(', '));\n} catch (e) {\n  functions.chatLog('[DeckSetup] ERROR: ' + (e && e.message ? e.message : e));\n}"
                 }
               ]
             },
             "events": {
-              "onPlayersReady": "const MAP = { YD: 'YDeck', YE: 'YExtraDeck' };\nconst dests = Object.values(MAP);\nconst groups = {};\nlet total = 0;\nfor (const sec of Object.keys(cards)) {\n  if (dests.includes(sec)) continue;\n  for (const c of (cards[sec] || [])) {\n    const dest = MAP[functions.getCardData(c)?.type];\n    if (!dest) continue;\n    if (!groups[dest]) groups[dest] = [];\n    groups[dest].push(c);\n    total++;\n  }\n}\nfor (const dest of Object.keys(groups)) {\n  await functions.moveCards(groups[dest], dest, { noLogs: true });\n}\nif (groups.YDeck) await functions.shuffleSection('YDeck');\nawait functions.repositionCards();\nfunctions.chatLog('Deck setup: moved ' + total + ' cards. Sections seen: ' + Object.keys(cards).map(k => k + '=' + (cards[k] || []).length).join(', '));"
+              "onPlayersDeckPicked": "try {\n  functions.chatLog('[DeckSetup] onPlayersDeckPicked fired');\n  const MAP = { YD: 'YDeck', YE: 'YExtraDeck' };\n  const dests = Object.values(MAP);\n  const groups = {};\n  const types = {};\n  let total = 0;\n  for (const sec of Object.keys(cards)) {\n    if (dests.includes(sec)) continue;\n    for (const c of (cards[sec] || [])) {\n      const d = functions.getCardData(c);\n      const t = d?.type || d?.face?.front?.type;\n      types[t] = (types[t] || 0) + 1;\n      const dest = MAP[t];\n      if (!dest) continue;\n      if (!groups[dest]) groups[dest] = [];\n      groups[dest].push(c);\n      total++;\n    }\n  }\n  for (const dest of Object.keys(groups)) {\n    await functions.moveCards(groups[dest], dest, { noLogs: true });\n  }\n  if (groups.YDeck) await functions.shuffleSection('YDeck');\n  if (total > 0) await functions.repositionCards();\n  functions.chatLog('[DeckSetup] moved ' + total + ' | sections: ' + Object.keys(cards).map(k => k + '=' + (cards[k] || []).length).join(', ') + ' | types: ' + Object.keys(types).map(k => k + '=' + types[k]).join(', '));\n} catch (e) {\n  functions.chatLog('[DeckSetup] ERROR: ' + (e && e.message ? e.message : e));\n}",
+              "onPlayersMulligan": "try {\n  functions.chatLog('[DeckSetup] onPlayersMulligan fired');\n  const MAP = { YD: 'YDeck', YE: 'YExtraDeck' };\n  const dests = Object.values(MAP);\n  const groups = {};\n  const types = {};\n  let total = 0;\n  for (const sec of Object.keys(cards)) {\n    if (dests.includes(sec)) continue;\n    for (const c of (cards[sec] || [])) {\n      const d = functions.getCardData(c);\n      const t = d?.type || d?.face?.front?.type;\n      types[t] = (types[t] || 0) + 1;\n      const dest = MAP[t];\n      if (!dest) continue;\n      if (!groups[dest]) groups[dest] = [];\n      groups[dest].push(c);\n      total++;\n    }\n  }\n  for (const dest of Object.keys(groups)) {\n    await functions.moveCards(groups[dest], dest, { noLogs: true });\n  }\n  if (groups.YDeck) await functions.shuffleSection('YDeck');\n  if (total > 0) await functions.repositionCards();\n  functions.chatLog('[DeckSetup] moved ' + total + ' | sections: ' + Object.keys(cards).map(k => k + '=' + (cards[k] || []).length).join(', ') + ' | types: ' + Object.keys(types).map(k => k + '=' + types[k]).join(', '));\n} catch (e) {\n  functions.chatLog('[DeckSetup] ERROR: ' + (e && e.message ? e.message : e));\n}",
+              "onPlayersReady": "try {\n  functions.chatLog('[DeckSetup] onPlayersReady fired');\n  const MAP = { YD: 'YDeck', YE: 'YExtraDeck' };\n  const dests = Object.values(MAP);\n  const groups = {};\n  const types = {};\n  let total = 0;\n  for (const sec of Object.keys(cards)) {\n    if (dests.includes(sec)) continue;\n    for (const c of (cards[sec] || [])) {\n      const d = functions.getCardData(c);\n      const t = d?.type || d?.face?.front?.type;\n      types[t] = (types[t] || 0) + 1;\n      const dest = MAP[t];\n      if (!dest) continue;\n      if (!groups[dest]) groups[dest] = [];\n      groups[dest].push(c);\n      total++;\n    }\n  }\n  for (const dest of Object.keys(groups)) {\n    await functions.moveCards(groups[dest], dest, { noLogs: true });\n  }\n  if (groups.YDeck) await functions.shuffleSection('YDeck');\n  if (total > 0) await functions.repositionCards();\n  functions.chatLog('[DeckSetup] moved ' + total + ' | sections: ' + Object.keys(cards).map(k => k + '=' + (cards[k] || []).length).join(', ') + ' | types: ' + Object.keys(types).map(k => k + '=' + types[k]).join(', '));\n} catch (e) {\n  functions.chatLog('[DeckSetup] ERROR: ' + (e && e.message ? e.message : e));\n}"
             }
           }
         }
