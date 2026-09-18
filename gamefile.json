@@ -56,13 +56,10 @@
               "direction": "row",
               "content": [
                 {
-                  "section": "Deck"
+                  "section": "Y1"
                 },
                 {
-                  "section": "YDeck1"
-                },
-                {
-                  "section": "YDeck2"
+                  "section": "Y2"
                 },
                 {
                   "section": "Discard1"
@@ -72,6 +69,9 @@
                 },
                 {
                   "section": "C"
+                },
+                {
+                  "section": "Deck"
                 }
               ]
             },
@@ -92,17 +92,17 @@
             "alignment": "DECK",
             "displayedTitle": "P/M Deck (200 max)"
           },
-          "YDeck1": {
+          "Y1": {
             "isHidden": "yes",
             "height": "MEDIUM",
             "alignment": "DECK",
-            "displayedTitle": "Y Deck (60 max)"
+            "displayedTitle": "Y Deck 1 (60 max)"
           },
-          "YDeck2": {
+          "Y2": {
             "isHidden": "yes",
             "height": "MEDIUM",
             "alignment": "DECK",
-            "displayedTitle": "Y Deck (15 max)"
+            "displayedTitle": "Y Deck 2 (15 max)"
           },
           "Discard1": {
             "isHidden": "no",
@@ -135,7 +135,7 @@
     "backgrounds": []
   },
   "cards": {
-    "dataUrl": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/refs/heads/main/cards.json",
+    "dataUrl": "https://example.com/cards.json",
     "cardBack": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/card_back.png"
   }
 }
