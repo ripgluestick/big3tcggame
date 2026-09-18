@@ -7,7 +7,7 @@
       {
         "title": "Big3TCG",
         "gameplay": "Standard",
-        "customCategories": ["Extra Deck", "Y Deck", "PM Deck", "Commanders"]
+        "customCategories": ["YE", "YD", "PM", "CMDR"]
       }
     ]
   },
