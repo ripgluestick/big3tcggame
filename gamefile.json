@@ -91,7 +91,6 @@
                 }
               ]
             }
-          ]
         },
         "sectionsDict": {
           "PrizeCards": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER", "displayedTitle": "Prize Cards" },
