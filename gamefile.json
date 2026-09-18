@@ -1,0 +1,141 @@
+{
+  "name": "My Card Game",
+  "deckBuilding": {
+    "mainFilters": [
+      "type",
+      "cost"
+    ],
+    "formats": [
+      {
+        "title": "Standard",
+        "gameplay": "Standard",
+        "deckRuleset": "Standard",
+        "customCategories": [
+          "Y1",
+          "Y2"
+        ]
+      }
+    ],
+    "deckRulesets": {
+      "Standard": {
+        "general": {
+          "max": 200
+        },
+        "categories": [
+          {
+            "category": "Y1",
+            "min": 0,
+            "max": 60
+          },
+          {
+            "category": "Y2",
+            "min": 0,
+            "max": 15
+          }
+        ]
+      }
+    }
+  },
+  "gameplay": {
+    "Standard": {
+      "mulligan": {
+        "startingHandSize": 5
+      },
+      "newTurn": {
+        "drawPerTurn": 1
+      },
+      "countersStartingValues": [],
+      "sections": {
+        "layout": {
+          "direction": "column",
+          "content": [
+            {
+              "section": "Board"
+            },
+            {
+              "direction": "row",
+              "content": [
+                {
+                  "section": "Deck"
+                },
+                {
+                  "section": "YDeck1"
+                },
+                {
+                  "section": "YDeck2"
+                },
+                {
+                  "section": "Discard1"
+                },
+                {
+                  "section": "Discard2"
+                },
+                {
+                  "section": "C"
+                }
+              ]
+            },
+            {
+              "section": "Hand"
+            }
+          ]
+        },
+        "sectionsDict": {
+          "Board": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "Deck": {
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "DECK",
+            "displayedTitle": "P/M Deck (200 max)"
+          },
+          "YDeck1": {
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "DECK",
+            "displayedTitle": "Y Deck (60 max)"
+          },
+          "YDeck2": {
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "DECK",
+            "displayedTitle": "Y Deck (15 max)"
+          },
+          "Discard1": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "DECK",
+            "displayedTitle": "Discard A"
+          },
+          "Discard2": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "DECK",
+            "displayedTitle": "Discard B"
+          },
+          "C": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "displayedTitle": "C Zone (max 3, P or M)"
+          },
+          "Hand": {
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          }
+        }
+      }
+    }
+  },
+  "defaultRessources": {
+    "backgrounds": []
+  },
+  "cards": {
+    "dataUrl": "https://example.com/cards.json",
+    "cardBack": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAIwCAIAAAAnKaroAAAHa0lEQVR4nO3aMQ6CQBBAUTEcC1o9M/VezM5GiSRGyU/eK2GLqX4msNOy3C4ABdezBwA4SrCADMECMgQLyBAsIEOwgAzBAjLmvRdjbP+cA+BpXe9vn9uwgAzBAjIEC8gQLCBDsICM3b+Er/a+2wN84/idBBsWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARnz8aNjbL+bA+AjGxaQIVhAhmABGYIFZAgWkDEty+3sGQAOsWEBGYIFZAgWkCFYQIZgARmCBWQIFpDxAIbpDiC3no0bAAAAAElFTkSuQmCC"
+  }
+}
