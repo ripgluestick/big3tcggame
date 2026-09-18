@@ -31,7 +31,7 @@
       },
       "beforeGameStart": {
         "initialBoardSetup": [
-          { "drawFromTop": "Deck", "count": 1, "destination": "Hand" }
+          { "drawFromTop": "Deck", "count": 0, "destination": "Hand" }
         ]
       },
       "sections": {
@@ -61,11 +61,11 @@
           ]
         },
         "sectionsDict": {
-          "ActivePokemon": { "isHidden": "no", "height": "MEDIUM", "alignment": "CENTER" },
+          "ActivePokemon": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
           "YGOMonsters": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
-          "BenchedPokemon": { "isHidden": "no", "height": "MEDIUM", "alignment": "CENTER" },
+          "BenchedPokemon": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
           "YGOSpellTrap": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER" },
-          "MTG": { "isHidden": "no", "height": "MEDIUM", "alignment": "CENTER" }
+          "MTG": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" }
         }
       }
     }
