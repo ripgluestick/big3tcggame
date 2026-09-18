@@ -82,12 +82,12 @@ true
 "beforeGameStart": {
   "initialBoardSetup": [
     { "drawFromTop": "Deck", "count": 1 "destination": "hand"
-  ]
+]
 },
 {
   "direction": "column",
   "content": [
-{direction": "row",
+{"direction": "row",
 "content": [
 {"section": "Active Pokemon": {
 {"section": "YGOMonsters"}
