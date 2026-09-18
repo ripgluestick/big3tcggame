@@ -6,13 +6,13 @@
         "name": {
           "name": "Sample P Card 1"
         },
-        "type": "P",
+        "type": "PM",
         "cost": 2,
         "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/card_P.png"
       }
     },
     "name": "Sample P Card 1",
-    "type": "P",
+    "type": "PM",
     "cost": 2
   },
   "p-002": {
@@ -22,13 +22,13 @@
         "name": {
           "name": "Sample P Card 2"
         },
-        "type": "P",
+        "type": "PM",
         "cost": 3,
         "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/card_P.png"
       }
     },
     "name": "Sample P Card 2",
-    "type": "P",
+    "type": "PM",
     "cost": 3
   },
   "m-001": {
@@ -38,13 +38,13 @@
         "name": {
           "name": "Sample M Card 1"
         },
-        "type": "M",
+        "type": "PM",
         "cost": 1,
         "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/card_M.png"
       }
     },
     "name": "Sample M Card 1",
-    "type": "M",
+    "type": "PM",
     "cost": 1
   },
   "m-002": {
@@ -54,13 +54,13 @@
         "name": {
           "name": "Sample M Card 2"
         },
-        "type": "M",
+        "type": "PM",
         "cost": 4,
         "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/card_M.png"
       }
     },
     "name": "Sample M Card 2",
-    "type": "M",
+    "type": "PM",
     "cost": 4
   },
   "y1-001": {
@@ -70,13 +70,13 @@
         "name": {
           "name": "Sample Y Card (Deck 1) A"
         },
-        "type": "Y1",
+        "type": "YD",
         "cost": 2,
         "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/card_Y1.png"
       }
     },
     "name": "Sample Y Card (Deck 1) A",
-    "type": "Y1",
+    "type": "YD",
     "cost": 2
   },
   "y1-002": {
@@ -86,13 +86,13 @@
         "name": {
           "name": "Sample Y Card (Deck 1) B"
         },
-        "type": "Y1",
+        "type": "YD",
         "cost": 3,
         "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/card_Y1.png"
       }
     },
     "name": "Sample Y Card (Deck 1) B",
-    "type": "Y1",
+    "type": "YD",
     "cost": 3
   },
   "y2-001": {
@@ -102,13 +102,13 @@
         "name": {
           "name": "Sample Y Card (Deck 2) A"
         },
-        "type": "Y2",
+        "type": "YE",
         "cost": 5,
         "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/card_Y2.png"
       }
     },
     "name": "Sample Y Card (Deck 2) A",
-    "type": "Y2",
+    "type": "YE",
     "cost": 5
   },
   "y2-002": {
@@ -118,13 +118,13 @@
         "name": {
           "name": "Sample Y Card (Deck 2) B"
         },
-        "type": "Y2",
+        "type": "YE",
         "cost": 6,
         "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/card_Y2.png"
       }
     },
     "name": "Sample Y Card (Deck 2) B",
-    "type": "Y2",
+    "type": "YE",
     "cost": 6
   }
 }
