@@ -90,7 +90,7 @@ true
   "content": [
 {"direction": "row",
 "content": [
-{"section": "Active Pokemon": {
+{"section": "Active Pokemon"}
 {"section": "YGOMonsters"}
 ]
 },
