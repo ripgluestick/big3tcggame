@@ -82,6 +82,7 @@ true
 "beforeGameStart": {
   "initialBoardSetup": [
     { "drawFromTop": "Deck", "count": 1 "destination": "hand"
+    }
 ]
 },
 {
