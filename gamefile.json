@@ -36,36 +36,64 @@
       },
       "sections": {
         "layout": {
-          "direction": "column",
+          "direction": "row",
           "content": [
             {
-              "direction": "row",
+              "direction": "column",
               "content": [
-                { "section": "ActivePokemon" },
-                { "section": "YGOMonsters" }
+                { "section": "PrizeCards" },
+                { "section": "Exile" }
               ]
             },
             {
-              "direction": "row",
+              "direction": "column",
               "content": [
-                { "section": "BenchedPokemon" },
-                { "section": "YGOSpellTrap" }
+                {
+                  "direction": "row",
+                  "content": [
+                    { "section": "ActivePokemon" },
+                    { "section": "YGOMonsters" }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "content": [
+                    { "section": "BenchedPokemon" },
+                    { "section": "YGOSpellTrap" }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "content": [
+                    { "section": "MTG" }
+                  ]
+                }
               ]
             },
             {
-              "direction": "row",
+              "direction": "column",
               "content": [
-                { "section": "MTG" }
+                {
+                  "direction": "row",
+                  "content": [
+                    { "section": "Stadium" },
+                    { "section": "FieldSp" }
+                  ]
+                }
               ]
             }
           ]
         },
         "sectionsDict": {
+          "PrizeCards": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER", "displayedTitle": "Prize Cards" },
+          "Exile": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
           "ActivePokemon": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
           "YGOMonsters": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
           "BenchedPokemon": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
           "YGOSpellTrap": { "isHidden": "yes", "height": "SMALL", "alignment": "CENTER" },
-          "MTG": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" }
+          "MTG": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
+          "Stadium": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" },
+          "FieldSp": { "isHidden": "no", "height": "SMALL", "alignment": "CENTER" }
         }
       }
     }
