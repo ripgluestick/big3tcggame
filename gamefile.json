@@ -154,47 +154,56 @@
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "CENTER",
-            "displayedTitle": "Prize Cards"
+            "displayedTitle": "Prize Cards",
+            "noAutoPayTo": true
           },
           "LostZone": {
             "isHidden": "no",
             "height": "SMALL",
-            "alignment": "CENTER"
+            "alignment": "CENTER",
+            "noAutoPayTo": true
           },
           "ActivePokemon": {
             "isHidden": "no",
             "height": "SMALL",
-            "alignment": "CENTER"
+            "alignment": "CENTER",
+            "noAutoPayTo": true
           },
           "YGOMonsters": {
             "isHidden": "no",
             "height": "SMALL",
-            "alignment": "CENTER"
+            "alignment": "CENTER",
+            "noAutoPayTo": true
           },
           "BenchedPokemon": {
             "isHidden": "no",
             "height": "SMALL",
-            "alignment": "CENTER"
+            "alignment": "CENTER",
+            "noAutoPayTo": true
           },
           "YGOSpellTrap": {
             "isHidden": "yes",
             "height": "SMALL",
-            "alignment": "CENTER"
+            "alignment": "CENTER",
+            "noAutoPayTo": true
           },
           "MTG": {
             "isHidden": "no",
             "height": "SMALL",
-            "alignment": "CENTER"
+            "alignment": "CENTER",
+            "noAutoPayTo": true
           },
           "Stadium": {
             "isHidden": "no",
             "height": "SMALL",
-            "alignment": "CENTER"
+            "alignment": "CENTER",
+            "noAutoPayTo": true
           },
           "FieldSp": {
             "isHidden": "no",
             "height": "SMALL",
-            "alignment": "CENTER"
+            "alignment": "CENTER",
+            "noAutoPayTo": true
           },
           "YD": {
             "isHidden": "yes",
@@ -203,7 +212,8 @@
             "displayedTitle": "Y Deck",
             "drawDestinations": {
               "_default": "Hand"
-            }
+            },
+            "noAutoPayTo": true
           },
           "YE": {
             "isHidden": "yes",
@@ -212,7 +222,8 @@
             "displayedTitle": "Extra deck",
             "drawDestinations": {
               "_default": "Hand"
-            }
+            },
+            "noAutoPayTo": true
           },
           "DeckSetup": {
             "type": "custom",
@@ -230,7 +241,8 @@
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
-            "displayedTitle": "Commander"
+            "displayedTitle": "Commander",
+            "noAutoPayTo": true
           },
           "Stack": {
             "isDefaultSection": true,
@@ -238,7 +250,8 @@
             "isHidden": "no",
             "height": "DEFAULT",
             "alignment": "NONE",
-            "displayedTitle": "Stack"
+            "displayedTitle": "Stack",
+            "noAutoPayTo": true
           }
         }
       }
