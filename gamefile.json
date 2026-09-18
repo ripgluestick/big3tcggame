@@ -36,9 +36,6 @@
       },
       "sections": {
         "layout": {
-          "direction": "row",
-          "content": [
-            {
               "direction": "column",
               "content": [
                 { "section": "PrizeCards" },
