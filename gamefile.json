@@ -28,16 +28,7 @@
       "mulligan": {
         "startingHandSize": 0,
         "mulliganCount": {
-          "max": 1
-        },
-        "mulliganCycle": {
-          "steps": [
-            "toBottom",
-            "draw"
-          ],
-          "selectionRange": {
-            "min": 0
-          }
+          "max": 0
         }
       },
       "newTurn": {
@@ -46,20 +37,13 @@
         "sharedTurn": true
       },
       "beforeGameStart": {
-        "initialBoardSetup": [
-          {
-            "drawFromTop": "Deck",
-            "count": 0,
-            "destination": "Hand"
-          }
-        ]
-      },
-      "sections": {
-        "categoriesAlreadyOnBoard": [
+        "boardCategoriesInSideboard": [
           "YD",
           "YE",
           "CMDR"
-        ],
+        ]
+      },
+      "sections": {
         "layout": {
           "direction": "row",
           "content": [
@@ -245,8 +229,6 @@
             "noAutoPayTo": true
           },
           "Stack": {
-            "isDefaultSection": true,
-            "title": "Stack",
             "isHidden": "no",
             "height": "DEFAULT",
             "alignment": "NONE",
