@@ -135,7 +135,7 @@
     "backgrounds": []
   },
   "cards": {
-    "dataUrl": "https://example.com/cards.json",
+    "dataUrl": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/refs/heads/main/cards.json",
     "cardBack": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/card_back.png"
   }
 }
