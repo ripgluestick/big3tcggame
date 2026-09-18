@@ -142,5 +142,133 @@
     "name": "Sample Y Card (Deck 2) B",
     "type": "YE",
     "cost": 6
+  },
+  "pm-adp": {
+    "id": "pm-adp",
+    "face": {
+      "front": {
+        "name": {
+          "name": "ADP"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/ADP.png"
+      }
+    },
+    "name": "ADP",
+    "type": "PM",
+    "cost": 0
+  },
+  "pm-basicfireenergy": {
+    "id": "pm-basicfireenergy",
+    "face": {
+      "front": {
+        "name": {
+          "name": "BasicFireEnergy"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/BasicFireEnergy.png"
+      }
+    },
+    "name": "BasicFireEnergy",
+    "type": "PM",
+    "cost": 0
+  },
+  "pm-dragpultex": {
+    "id": "pm-dragpultex",
+    "face": {
+      "front": {
+        "name": {
+          "name": "DragpultEx"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/DragpultEx.png"
+      }
+    },
+    "name": "DragpultEx",
+    "type": "PM",
+    "cost": 0
+  },
+  "pm-drakloak": {
+    "id": "pm-drakloak",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Drakloak"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/Drakloak.png"
+      }
+    },
+    "name": "Drakloak",
+    "type": "PM",
+    "cost": 0
+  },
+  "pm-dreepy": {
+    "id": "pm-dreepy",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Dreepy"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/Dreepy.png"
+      }
+    },
+    "name": "Dreepy",
+    "type": "PM",
+    "cost": 0
+  },
+  "pm-forestsealstone": {
+    "id": "pm-forestsealstone",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Forestsealstone"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/Forestsealstone.png"
+      }
+    },
+    "name": "Forestsealstone",
+    "type": "PM",
+    "cost": 0
+  },
+  "pm-lillies": {
+    "id": "pm-lillies",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Lillies"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/Lillies.png"
+      }
+    },
+    "name": "Lillies",
+    "type": "PM",
+    "cost": 0
+  },
+  "pm-masterball": {
+    "id": "pm-masterball",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Masterball"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/Masterball.png"
+      }
+    },
+    "name": "Masterball",
+    "type": "PM",
+    "cost": 0
   }
 }
