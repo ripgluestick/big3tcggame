@@ -13,6 +13,7 @@
         "customCategories": [
           "YE",
           "YD",
+          "PM",
           "CMDR"
         ]
       }
@@ -28,7 +29,7 @@
       "mulligan": {
         "startingHandSize": 0,
         "mulliganCount": {
-          "max": 0
+          "max": 1
         },
         "mulliganCycle": {
           "steps": [
@@ -71,10 +72,10 @@
                   "direction": "row",
                   "content": [
                     {
-                      "section": "YD"
+                      "section": "YDeck"
                     },
                     {
-                      "section": "YE"
+                      "section": "YExtraDeck"
                     }
                   ]
                 }
@@ -128,6 +129,9 @@
                       "section": "FieldSp"
                     }
                   ]
+                },
+                {
+                  "section": "DeckSetup"
                 }
               ]
             }
@@ -180,17 +184,33 @@
             "height": "SMALL",
             "alignment": "CENTER"
           },
-          "YD": {
+          "YDeck": {
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "DECK",
             "displayedTitle": "Y Deck"
           },
-          "YE": {
+          "YExtraDeck": {
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "DECK",
             "displayedTitle": "Extra deck"
+          },
+          "DeckSetup": {
+            "type": "custom",
+            "blueprint": {
+              "type": "div",
+              "children": [
+                {
+                  "type": "button",
+                  "children": "Sort Y decks",
+                  "onClick": "const MAP = { YD: 'YDeck', YE: 'YExtraDeck' };\nconst dests = Object.values(MAP);\nconst groups = {};\nlet total = 0;\nfor (const sec of ['Deck', 'Sideboard']) {\n  if (dests.includes(sec)) continue;\n  for (const c of (cards[sec] || [])) {\n    const dest = MAP[functions.getCardData(c)?.type];\n    if (!dest) continue;\n    if (!groups[dest]) groups[dest] = [];\n    groups[dest].push(c);\n    total++;\n  }\n}\nfor (const dest of Object.keys(groups)) {\n  await functions.moveCards(groups[dest], dest, { noLogs: true });\n}\nif (groups.YDeck) await functions.shuffleSection('YDeck');\nawait functions.repositionCards();\nfunctions.chatLog('Deck setup: moved ' + total + ' cards. Sections seen: ' + Object.keys(cards).map(k => k + '=' + (cards[k] || []).length).join(', '));"
+                }
+              ]
+            },
+            "events": {
+              "onPlayersReady": "const MAP = { YD: 'YDeck', YE: 'YExtraDeck' };\nconst dests = Object.values(MAP);\nconst groups = {};\nlet total = 0;\nfor (const sec of Object.keys(cards)) {\n  if (dests.includes(sec)) continue;\n  for (const c of (cards[sec] || [])) {\n    const dest = MAP[functions.getCardData(c)?.type];\n    if (!dest) continue;\n    if (!groups[dest]) groups[dest] = [];\n    groups[dest].push(c);\n    total++;\n  }\n}\nfor (const dest of Object.keys(groups)) {\n  await functions.moveCards(groups[dest], dest, { noLogs: true });\n}\nif (groups.YDeck) await functions.shuffleSection('YDeck');\nawait functions.repositionCards();\nfunctions.chatLog('Deck setup: moved ' + total + ' cards. Sections seen: ' + Object.keys(cards).map(k => k + '=' + (cards[k] || []).length).join(', '));"
+            }
           }
         }
       }
