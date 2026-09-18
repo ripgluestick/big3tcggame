@@ -26,7 +26,12 @@
         "cost": 3,
         "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/card_P.png"
       }
-        "cmdr-001": {
+    },
+    "name": "Sample P Card 2",
+    "type": "PM",
+    "cost": 3
+  },
+  "cmdr-001": {
     "id": "cmdr-001",
     "face": {
       "front": {
@@ -38,9 +43,9 @@
         "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/cmdr_1.png"
       }
     },
-    "name": "Sample P Card 2",
-    "type": "PM",
-    "cost": 3
+    "name": "Sample cmdr Card 1",
+    "type": "CMDR",
+    "cost": 2
   },
   "m-001": {
     "id": "m-001",
