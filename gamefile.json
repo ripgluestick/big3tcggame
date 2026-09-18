@@ -232,6 +232,12 @@
             "alignment": "CENTER",
             "displayedTitle": "Commander"
           }
+        },
+        "autoPlayFromHand": {
+          "PM": "Stack",
+          "YD": "Stack",
+          "YE": "Stack",
+          "CMDR": "Stack"
         }
       }
     }
