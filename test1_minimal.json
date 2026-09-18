@@ -1,0 +1,48 @@
+{
+  "name": "Big 3 TCG - TEST 1 minimal",
+  "cardRotation": 90,
+  "deckBuilding": {
+    "mainFilters": [
+      "type",
+      "cost"
+    ],
+    "formats": [
+      {
+        "title": "Big3TCG",
+        "gameplay": "Standard"
+      }
+    ]
+  },
+  "gameplay": {
+    "Standard": {
+      "mulligan": {
+        "startingHandSize": 5
+      },
+      "newTurn": {
+        "drawPerTurn": 1
+      },
+      "countersStartingValues": [],
+      "sections": {
+        "layout": {
+          "direction": "column",
+          "content": [
+            {
+              "section": "Board"
+            }
+          ]
+        },
+        "sectionsDict": {
+          "Board": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          }
+        }
+      }
+    }
+  },
+  "cards": {
+    "dataUrl": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/refs/heads/main/cards.json",
+    "cardBack": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/card_back.png"
+  }
+}

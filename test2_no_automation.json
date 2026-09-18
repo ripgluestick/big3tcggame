@@ -1,0 +1,218 @@
+{
+  "name": "Big 3 TCG - TEST 2 no automation",
+  "cardRotation": 90,
+  "deckBuilding": {
+    "mainFilters": [
+      "type",
+      "cost"
+    ],
+    "formats": [
+      {
+        "title": "Big3TCG",
+        "gameplay": "Standard"
+      }
+    ]
+  },
+  "gameplay": {
+    "Standard": {
+      "defaultNotes": "P1 LP: 8000\nP2 LP: 8000",
+      "countersStartingValues": [
+        8000
+      ],
+      "hideFacedDownCards": true,
+      "mulligan": {
+        "startingHandSize": 0,
+        "mulliganCount": {
+          "max": 1
+        },
+        "mulliganCycle": {
+          "steps": [
+            "toBottom",
+            "draw"
+          ],
+          "selectionRange": {
+            "min": 0
+          }
+        }
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "drawPerTurn": 0,
+        "sharedTurn": true
+      },
+      "beforeGameStart": {
+        "initialBoardSetup": [
+          {
+            "drawFromTop": "Deck",
+            "count": 0,
+            "destination": "Hand"
+          }
+        ]
+      },
+      "sections": {
+        "layout": {
+          "direction": "row",
+          "content": [
+            {
+              "direction": "column",
+              "content": [
+                {
+                  "section": "PrizeCards"
+                },
+                {
+                  "section": "LostZone"
+                },
+                {
+                  "direction": "row",
+                  "content": [
+                    {
+                      "section": "YD"
+                    },
+                    {
+                      "section": "YE"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "direction": "column",
+              "content": [
+                {
+                  "direction": "row",
+                  "content": [
+                    {
+                      "section": "ActivePokemon"
+                    },
+                    {
+                      "section": "YGOMonsters"
+                    }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "content": [
+                    {
+                      "section": "BenchedPokemon"
+                    },
+                    {
+                      "section": "YGOSpellTrap"
+                    }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "content": [
+                    {
+                      "section": "MTG"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "direction": "column",
+              "content": [
+                {
+                  "direction": "row",
+                  "content": [
+                    {
+                      "section": "Stadium"
+                    },
+                    {
+                      "section": "FieldSp"
+                    }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "content": [
+                    {
+                      "section": "CMDR"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sectionsDict": {
+          "PrizeCards": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "displayedTitle": "Prize Cards"
+          },
+          "LostZone": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER"
+          },
+          "ActivePokemon": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER"
+          },
+          "YGOMonsters": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER"
+          },
+          "BenchedPokemon": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER"
+          },
+          "YGOSpellTrap": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "CENTER"
+          },
+          "MTG": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER"
+          },
+          "Stadium": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER"
+          },
+          "FieldSp": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER"
+          },
+          "YD": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "DECK",
+            "displayedTitle": "Y Deck",
+            "drawDestinations": {
+              "_default": "Hand"
+            }
+          },
+          "YE": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "DECK",
+            "displayedTitle": "Extra deck",
+            "drawDestinations": {
+              "_default": "Hand"
+            }
+          },
+          "CMDR": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "displayedTitle": "Commander"
+          }
+        }
+      }
+    }
+  },
+  "cards": {
+    "dataUrl": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/refs/heads/main/cards.json",
+    "cardBack": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/card_back.png"
+  }
+}
