@@ -1,5 +1,5 @@
 {
-  "name": "My Card Game",
+  "name": "Big 3 TCG",
   "deckBuilding": {
     "mainFilters": [
       "type",
@@ -7,118 +7,136 @@
     ],
     "formats": [
       {
-        "title": "Standard",
+        "title": "Big3TCG",
         "gameplay": "Standard",
-        "deckRuleset": "Standard",
-        "customCategories": [
-          "Y1",
-          "Y2",
-	  "MP"
-        ]
       }
     ],
-    "deckRulesets": {
-      "Standard": {
-        "general": {
-          "max": 200
-        },
-        "categories": [
-          {
-            "category": "Y1",
-            "min": 0,
-            "max": 60
-          },
-          {
-            "category": "Y2",
-            "min": 0,
-            "max": 15
-          }
-        ]
-      }
-    }
-  },
-  "gameplay": {
+"gameplay": {
     "Standard": {
-      "mulligan": {
-        "startingHandSize": 0
+      "mulligan": { 
+        "startingHandSize": 3
       },
-      "newTurn": {
-        "drawPerTurn": 0
+      "newTurn": { 
+        "drawPerTurn": 1 
       },
-      "countersStartingValues": [],
+"cardRotation": {
+90
+},
+"countersStartingValues": [],
       "sections": {
         "layout": {
           "direction": "column",
-          "content": [
-            {
-              "section": "Board"
-            },
-            {
-              "direction": "row",
-              "content": [
-                {
-                  "section": "Y1"
-                },
-                {
-                  "section": "Y2"
-                },
-                {
-                  "section": "Discard1"
-                },
-                {
-                  "section": "Deck"
-                }
-              ]
-            },
-            {
-              "section": "Hand"
-            }
-          ]
+          "content": [{ "section": "Board" }]
         },
         "sectionsDict": {
-          "Board": {
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER"
-          },
-          "Deck": {
-            "isHidden": "yes",
-            "height": "MEDIUM",
-            "alignment": "DECK",
-            "displayedTitle": "P/M Deck (200 max)"
-          },
-          "Y1": {
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "DECK",
-            "displayedTitle": "Y Deck 1"
-          },
-          "Y2": {
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "DECK",
-            "displayedTitle": "Y Deck 2"
-          },
-          "Discard1": {
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "DECK",
-            "displayedTitle": "Discard"
-          },
-          "Hand": {
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER"
-          }
+          "Board": { "isHidden": "no", "height": "MEDIUM", "alignment": "CENTER" }
         }
       }
     }
   },
-  "defaultRessources": {
-    "backgrounds": []
-  },
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/refs/heads/main/cards.json",
-    "cardBack": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/card_back.png"
+    "cardBack": "https://github.com/ripgluestick/big3tcggame/blob/main/card_back.png"
   }
+},
+"deckBuilding": {
+  "mainFilters": ["type", "cost", "color"],
+  "formats": [
+    { "title": "Big3TCG", "gameplay": "Standard" },  ]
+},
+{
+  "title": "Constructed",
+  "legalityCode": "STD",
+  "gameplay": "Standard",
+  "deckRuleset": "Standard"
+}, 
+"customCategories": {
+["Extra Deck",
+"Y Deck",
+"PM Deck",
+"Commanders"]
+},
+"defaultNotes": "P1 life: 20\nP2 life: 20",
+"countersStartingValues": [20],
+"defaultNotes": "P1 LP: 8000\nP2 LP8000"
+"countersStartingValues": [8000],
+"hideFacedDownCards": {
+true
+},
+"mulligan": {
+  "startingHandSize": 0
+  "mulliganCount": { "max": 1 },
+  "mulliganCycle": {
+    "steps": ["toBottom", "draw"],
+    "selectionRange": { "min": 0}
+  }
+},
+"newTurn": {
+  "drawOnStart": false
+  "drawPerTurn": 0
+},
+"sharedTurn": {
+true
+},
+"beforeGameStart": {
+  "initialBoardSetup": [
+    { "drawFromTop": "Deck", "count": 1 "destination": "hand"
+  ]
+},
+{
+  "direction": "column",
+  "content": [
+{direction": "row",
+"content": [
+{"section": "Active Pokemon": {
+{"section": "YGOMonsters"}
+]
+},
+{"direction": "row",
+"content": [
+{"section": "BenchedPokemon"}
+{"section": "YGOSpellTrap"}
+]
+},
+{direction": "row",
+"content": [
+{"section": "MTG"}
+]
 }
+},
+"sectionsDict": {
+  "ActivePokemon": {
+    "isHidden": "no",
+    "height": "MEDIUM",
+    "alignment": "CENTER"
+  }
+},
+"sectionsDict": {
+  "YGOMonsters": {
+    "isHidden": "no",
+    "height": "SMALL"
+    "alignment": "CENTER"
+  }
+},
+"sectionsDict": {
+  "BenchedPokemon": {
+    "isHidden": "no",
+    "height": "MEDIUM",
+    "alignment": "CENTER"
+  }
+},
+"sectionsDict": {
+  "YGOSpellTrap": {
+    "isHidden": "yes
+    "height": "SMALL"
+    "alignment": "CENTER"
+  }
+},
+"sectionsDict": {
+  "MTG": {
+    "isHidden": "no",
+    "height": "MEDIUM",
+    "alignment": "CENTER"
+  }
+},
+
