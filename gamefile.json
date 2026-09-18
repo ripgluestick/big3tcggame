@@ -215,10 +215,11 @@
               "done": false
             },
             "blueprint": {
-              "type": "div"
+              "type": "div",
+              "children": ""
             },
             "events": {
-              "onCardsUpdate": "try {\n  const st = game?.data?.DeckSetup;\n  if (st && !st.done) {\n    const MAP = { YD: 'YD', YE: 'YE', CMDR: 'CMDR' };\n    const groups = {};\n    let seen = 0;\n    let sorted = 0;\n    for (const sec of ['Deck', 'Sideboard']) {\n      for (const c of (cards?.[sec] || [])) {\n        seen++;\n        const d = functions.getCardData(c);\n        const dest = MAP[d?.type || d?.face?.front?.type];\n        if (!dest) continue;\n        if (!groups[dest]) groups[dest] = [];\n        groups[dest].push(c);\n        sorted++;\n      }\n    }\n    if (seen > 0) {\n      st.done = true;\n      for (const dest of Object.keys(groups)) {\n        await functions.moveCards(groups[dest], dest, { noLogs: true });\n      }\n      if (groups.YD) await functions.shuffleSection('YD');\n      if (sorted > 0) await functions.repositionCards();\n      functions.chatLog('[DeckSetup] sorted ' + sorted + ' of ' + seen + ' cards (YD=' + (groups.YD || []).length + ', YE=' + (groups.YE || []).length + ', CMDR=' + (groups.CMDR || []).length + ')');\n    }\n  }\n} catch (e) {\n  functions.chatLog('[DeckSetup] ERROR: ' + (e && e.message ? e.message : e));\n}"
+              "onPlayersReady": "try {\n  const st = game?.data?.DeckSetup;\n  if (st && !st.done) {\n    const MAP = { YD: 'YD', YE: 'YE', CMDR: 'CMDR' };\n    const groups = {};\n    let seen = 0;\n    let sorted = 0;\n    for (const sec of ['Deck', 'Sideboard']) {\n      for (const c of (cards?.[sec] || [])) {\n        seen++;\n        const d = functions.getCardData(c);\n        const dest = MAP[d?.type || d?.face?.front?.type];\n        if (!dest) continue;\n        if (!groups[dest]) groups[dest] = [];\n        groups[dest].push(c);\n        sorted++;\n      }\n    }\n    if (seen > 0) {\n      st.done = true;\n      for (const dest of Object.keys(groups)) {\n        await functions.moveCards(groups[dest], dest, { noLogs: true });\n      }\n      if (groups.YD) await functions.shuffleSection('YD');\n      if (sorted > 0) await functions.repositionCards();\n      functions.chatLog('[DeckSetup] sorted ' + sorted + ' of ' + seen + ' cards (YD=' + (groups.YD || []).length + ', YE=' + (groups.YE || []).length + ', CMDR=' + (groups.CMDR || []).length + ')');\n    } else {\n      functions.chatLog('[DeckSetup] no cards found in Deck/Sideboard');\n    }\n  }\n} catch (e) {\n  functions.chatLog('[DeckSetup] ERROR: ' + (e && e.message ? e.message : e));\n}"
             }
           },
           "CMDR": {
