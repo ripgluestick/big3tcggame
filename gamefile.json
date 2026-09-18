@@ -42,7 +42,7 @@
               "direction": "column",
               "content": [
                 { "section": "PrizeCards" },
-                { "section": "Exile" }
+                { "section": "LostZone" }
               ]
             },
             {
