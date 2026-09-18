@@ -42,7 +42,8 @@
 "deckBuilding": {
   "mainFilters": ["type", "cost", "color"],
   "formats": [
-    { "title": "Big3TCG", "gameplay": "Standard" },  ]
+    { "title": "Big3TCG", "gameplay": "Standard" }
+  ]
 },
 {
   "title": "Constructed",
