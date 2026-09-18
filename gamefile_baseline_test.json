@@ -1,0 +1,243 @@
+{
+  "name": "Big 3 TCG",
+  "cardRotation": 90,
+  "deckBuilding": {
+    "mainFilters": [
+      "type",
+      "cost"
+    ],
+    "formats": [
+      {
+        "title": "Big3TCG",
+        "gameplay": "Standard",
+        "customCategories": [
+          "YE",
+          "YD",
+          "CMDR"
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "Standard": {
+      "defaultNotes": "P1 LP: 8000\nP2 LP: 8000",
+      "countersStartingValues": [
+        8000
+      ],
+      "hideFacedDownCards": true,
+      "mulligan": {
+        "startingHandSize": 0,
+        "mulliganCount": {
+          "max": 1
+        },
+        "mulliganCycle": {
+          "steps": [
+            "toBottom",
+            "draw"
+          ],
+          "selectionRange": {
+            "min": 0
+          }
+        }
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "drawPerTurn": 0,
+        "sharedTurn": true
+      },
+      "beforeGameStart": {
+        "initialBoardSetup": [
+          {
+            "drawFromTop": "Deck",
+            "count": 0,
+            "destination": "Hand"
+          }
+        ]
+      },
+      "sections": {
+        "categoriesAlreadyOnBoard": [
+          "YD",
+          "YE",
+          "CMDR"
+        ],
+        "layout": {
+          "direction": "row",
+          "content": [
+            {
+              "direction": "column",
+              "content": [
+                {
+                  "section": "PrizeCards"
+                },
+                {
+                  "section": "LostZone"
+                },
+                {
+                  "direction": "row",
+                  "content": [
+                    {
+                      "section": "YD"
+                    },
+                    {
+                      "section": "YE"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "direction": "column",
+              "content": [
+                {
+                  "direction": "row",
+                  "content": [
+                    {
+                      "section": "ActivePokemon"
+                    },
+                    {
+                      "section": "YGOMonsters"
+                    }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "content": [
+                    {
+                      "section": "BenchedPokemon"
+                    },
+                    {
+                      "section": "YGOSpellTrap"
+                    }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "content": [
+                    {
+                      "section": "MTG"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "direction": "column",
+              "content": [
+                {
+                  "direction": "row",
+                  "content": [
+                    {
+                      "section": "Stadium"
+                    },
+                    {
+                      "section": "FieldSp"
+                    }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "content": [
+                    {
+                      "section": "CMDR"
+                    }
+                  ]
+                },
+                {
+                  "section": "DeckSetup"
+                }
+              ]
+            }
+          ]
+        },
+        "sectionsDict": {
+          "PrizeCards": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "displayedTitle": "Prize Cards"
+          },
+          "LostZone": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER"
+          },
+          "ActivePokemon": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER"
+          },
+          "YGOMonsters": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER"
+          },
+          "BenchedPokemon": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER"
+          },
+          "YGOSpellTrap": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "CENTER"
+          },
+          "MTG": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER"
+          },
+          "Stadium": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER"
+          },
+          "FieldSp": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER"
+          },
+          "YD": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "DECK",
+            "displayedTitle": "Y Deck",
+            "drawDestinations": {
+              "_default": "Hand"
+            }
+          },
+          "YE": {
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "DECK",
+            "displayedTitle": "Extra deck",
+            "drawDestinations": {
+              "_default": "Hand"
+            }
+          },
+          "DeckSetup": {
+            "type": "custom",
+            "defaultValue": {
+              "done": false
+            },
+            "blueprint": {
+              "type": "div"
+            },
+            "events": {
+              "onCardsUpdate": "if (!game.data.DeckSetup.done) {\n  try {\n    const MAP = { YD: 'YD', YE: 'YE', CMDR: 'CMDR' };\n    const groups = {};\n    let seen = 0;\n    let sorted = 0;\n    for (const sec of ['Deck', 'Sideboard', 'Hand']) {\n      for (const c of (cards[sec] || [])) {\n        seen++;\n        const d = functions.getCardData(c);\n        const dest = MAP[d?.type || d?.face?.front?.type];\n        if (!dest) continue;\n        if (!groups[dest]) groups[dest] = [];\n        groups[dest].push(c);\n        sorted++;\n      }\n    }\n    if (seen > 0) {\n      game.data.DeckSetup.done = true;\n      for (const dest of Object.keys(groups)) {\n        await functions.moveCards(groups[dest], dest, { noLogs: true });\n      }\n      if (groups.YD) await functions.shuffleSection('YD');\n      if (sorted > 0) await functions.repositionCards();\n      functions.chatLog('[DeckSetup] sorted ' + sorted + ' of ' + seen + ' cards (YD=' + (groups.YD || []).length + ', YE=' + (groups.YE || []).length + ', CMDR=' + (groups.CMDR || []).length + ')');\n    }\n  } catch (e) {\n    functions.chatLog('[DeckSetup] ERROR: ' + (e && e.message ? e.message : e));\n  }\n}"
+            }
+          },
+          "CMDR": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "displayedTitle": "Commander"
+          }
+        }
+      }
+    }
+  },
+  "cards": {
+    "dataUrl": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/refs/heads/main/cards.json",
+    "cardBack": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/card_back.png"
+  }
+}
