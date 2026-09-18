@@ -63,7 +63,7 @@
                   "section": "Y2"
                 },
                 {
-                  "section": "Discard"
+                  "section": "Discard1"
                 },
                 {
                   "section": "Deck"
@@ -99,11 +99,11 @@
             "alignment": "DECK",
             "displayedTitle": "Y Deck 2"
           },
-          "Discard": {
+          "Discard1": {
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "DECK",
-            "displayedTitle": "Discard A"
+            "displayedTitle": "Discard"
           },
           "Hand": {
             "isHidden": "no",
