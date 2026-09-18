@@ -57,7 +57,8 @@
       "sections": {
         "categoriesAlreadyOnBoard": [
           "YD",
-          "YE"
+          "YE",
+          "CMDR"
         ],
         "layout": {
           "direction": "row",
@@ -130,6 +131,14 @@
                     },
                     {
                       "section": "FieldSp"
+                    }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "content": [
+                    {
+                      "section": "CMDR"
                     }
                   ]
                 },
@@ -214,8 +223,14 @@
               "type": "div"
             },
             "events": {
-              "onCardsUpdate": "if (!game.data.DeckSetup.done) {\n  try {\n    const MAP = { YD: 'YD', YE: 'YE' };\n    const groups = {};\n    let seen = 0;\n    let sorted = 0;\n    for (const sec of ['Deck', 'Sideboard', 'Hand']) {\n      for (const c of (cards[sec] || [])) {\n        seen++;\n        const d = functions.getCardData(c);\n        const dest = MAP[d?.type || d?.face?.front?.type];\n        if (!dest) continue;\n        if (!groups[dest]) groups[dest] = [];\n        groups[dest].push(c);\n        sorted++;\n      }\n    }\n    if (seen > 0) {\n      game.data.DeckSetup.done = true;\n      for (const dest of Object.keys(groups)) {\n        await functions.moveCards(groups[dest], dest, { noLogs: true });\n      }\n      if (groups.YD) await functions.shuffleSection('YD');\n      if (sorted > 0) await functions.repositionCards();\n      functions.chatLog('[DeckSetup] sorted ' + sorted + ' of ' + seen + ' cards (YD=' + (groups.YD || []).length + ', YE=' + (groups.YE || []).length + ')');\n    }\n  } catch (e) {\n    functions.chatLog('[DeckSetup] ERROR: ' + (e && e.message ? e.message : e));\n  }\n}"
+              "onCardsUpdate": "if (!game.data.DeckSetup.done) {\n  try {\n    const MAP = { YD: 'YD', YE: 'YE', CMDR: 'CMDR' };\n    const groups = {};\n    let seen = 0;\n    let sorted = 0;\n    for (const sec of ['Deck', 'Sideboard', 'Hand']) {\n      for (const c of (cards[sec] || [])) {\n        seen++;\n        const d = functions.getCardData(c);\n        const dest = MAP[d?.type || d?.face?.front?.type];\n        if (!dest) continue;\n        if (!groups[dest]) groups[dest] = [];\n        groups[dest].push(c);\n        sorted++;\n      }\n    }\n    if (seen > 0) {\n      game.data.DeckSetup.done = true;\n      for (const dest of Object.keys(groups)) {\n        await functions.moveCards(groups[dest], dest, { noLogs: true });\n      }\n      if (groups.YD) await functions.shuffleSection('YD');\n      if (sorted > 0) await functions.repositionCards();\n      functions.chatLog('[DeckSetup] sorted ' + sorted + ' of ' + seen + ' cards (YD=' + (groups.YD || []).length + ', YE=' + (groups.YE || []).length + ', CMDR=' + (groups.CMDR || []).length + ')');\n    }\n  } catch (e) {\n    functions.chatLog('[DeckSetup] ERROR: ' + (e && e.message ? e.message : e));\n  }\n}"
             }
+          },
+          "CMDR": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "displayedTitle": "Commander"
           }
         }
       }
