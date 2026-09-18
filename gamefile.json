@@ -86,11 +86,7 @@
                     { "section": "Stadium" },
                     { "section": "FieldSp" }
                   ]
-                },
-                {
-                  "direction": "row",
-                  "content": [
-                    { "section": "Commander" }
+                }
                   ]
                 }
               ]
