@@ -116,7 +116,7 @@
           },
           "YExtraDeck": {
             "isHidden": "yes",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "DECK",
             "displayedTitle": "Extra deck"
           }
