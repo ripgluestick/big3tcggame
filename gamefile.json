@@ -100,7 +100,7 @@ true
 {"section": "YGOSpellTrap"}
 ]
 },
-{direction": "row",
+{"direction": "row",
 "content": [
 {"section": "MTG"}
 ]
