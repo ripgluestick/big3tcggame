@@ -2020,14 +2020,14 @@
     "face": {
       "front": {
         "name": {
-          "name": "Beast Energy Prism Star"
+          "name": "Beast Energy"
         },
         "type": "PM",
         "cost": 0,
         "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/beast-energy-prism-star.png"
       }
     },
-    "name": "Beast Energy Prism Star",
+    "name": "Beast Energy",
     "type": "PM",
     "cost": 0
   },
@@ -2036,14 +2036,14 @@
     "face": {
       "front": {
         "name": {
-          "name": "Black Market Prism Star"
+          "name": "Black Market"
         },
         "type": "PM",
         "cost": 0,
         "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/black-market-prism-star.png"
       }
     },
-    "name": "Black Market Prism Star",
+    "name": "Black Market",
     "type": "PM",
     "cost": 0
   },
