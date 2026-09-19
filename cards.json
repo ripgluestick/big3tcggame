@@ -1951,19 +1951,19 @@
     "type": "CMDR",
     "cost": 1
   },
-  "shadowy-energy": {
-    "id": "shadowy-energy",
+  "shadowy-dark-energy": {
+    "id": "shadowy-dark-energy",
     "face": {
       "front": {
         "name": {
-          "name": "Shadowy Energy"
+          "name": "Shadowy Dark Energy"
         },
         "type": "PM",
         "cost": 0,
-        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/shadowy-energy.png"
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/shadowy-dark-energy.png"
       }
     },
-    "name": "Shadowy Energy",
+    "name": "Shadowy Dark Energy",
     "type": "PM",
     "cost": 0
   },
@@ -2015,35 +2015,35 @@
     "type": "PM",
     "cost": 0
   },
-  "beast-energy": {
-    "id": "beast-energy",
+  "beast-energy-prism-star": {
+    "id": "beast-energy-prism-star",
     "face": {
       "front": {
         "name": {
-          "name": "Beast Energy"
+          "name": "Beast Energy Prism Star"
         },
         "type": "PM",
         "cost": 0,
-        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/beast-energy.png"
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/beast-energy-prism-star.png"
       }
     },
-    "name": "Beast Energy",
+    "name": "Beast Energy Prism Star",
     "type": "PM",
     "cost": 0
   },
   "black-market": {
-    "id": "black-market",
+    "id": "black-market-prism-star",
     "face": {
       "front": {
         "name": {
-          "name": "Black Market"
+          "name": "Black Market Prism Star"
         },
         "type": "PM",
         "cost": 0,
-        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/black-market.png"
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/black-market-prism-star.png"
       }
     },
-    "name": "Black Market",
+    "name": "Black Market Prism Star",
     "type": "PM",
     "cost": 0
   },
