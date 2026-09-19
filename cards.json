@@ -2110,5 +2110,1045 @@
     "name": "Pikachu ex",
     "type": "CMDR",
     "cost": 1
+  },
+  "shadowy-energy": {
+    "id": "shadowy-energy",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Shadowy Energy"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/shadowy-energy.png"
+      }
+    },
+    "name": "Shadowy Energy",
+    "type": "PM",
+    "cost": 0
+  },
+  "viridian-forest": {
+    "id": "viridian-forest",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Viridian Forest"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/viridian-forest.png"
+      }
+    },
+    "name": "Viridian Forest",
+    "type": "PM",
+    "cost": 0
+  },
+  "arven": {
+    "id": "arven",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Arven"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/arven.png"
+      }
+    },
+    "name": "Arven",
+    "type": "PM",
+    "cost": 0
+  },
+  "ball-guy": {
+    "id": "ball-guy",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Ball Guy"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/ball-guy.png"
+      }
+    },
+    "name": "Ball Guy",
+    "type": "PM",
+    "cost": 0
+  },
+  "beast-energy": {
+    "id": "beast-energy",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Beast Energy"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/beast-energy.png"
+      }
+    },
+    "name": "Beast Energy",
+    "type": "PM",
+    "cost": 0
+  },
+  "black-market": {
+    "id": "black-market",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Black Market"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/black-market.png"
+      }
+    },
+    "name": "Black Market",
+    "type": "PM",
+    "cost": 0
+  },
+  "bosss-orders": {
+    "id": "bosss-orders",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Boss's Orders"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/bosss-orders.png"
+      }
+    },
+    "name": "Boss's Orders",
+    "type": "PM",
+    "cost": 0
+  },
+  "brilliant-blender": {
+    "id": "brilliant-blender",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Brilliant Blender"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/brilliant-blender.png"
+      }
+    },
+    "name": "Brilliant Blender",
+    "type": "PM",
+    "cost": 0
+  },
+  "carmine": {
+    "id": "carmine",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Carmine"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/carmine.png"
+      }
+    },
+    "name": "Carmine",
+    "type": "PM",
+    "cost": 0
+  },
+  "energy-reset": {
+    "id": "energy-reset",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Energy Reset"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/energy-reset.png"
+      }
+    },
+    "name": "Energy Reset",
+    "type": "PM",
+    "cost": 0
+  },
+  "great-ball": {
+    "id": "great-ball",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Great Ball"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/great-ball.png"
+      }
+    },
+    "name": "Great Ball",
+    "type": "PM",
+    "cost": 0
+  },
+  "grimsleys-move": {
+    "id": "grimsleys-move",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Grimsley's Move"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/grimsleys-move.png"
+      }
+    },
+    "name": "Grimsley's Move",
+    "type": "PM",
+    "cost": 0
+  },
+  "professors-letter": {
+    "id": "professors-letter",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Professor's Letter"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/professors-letter.png"
+      }
+    },
+    "name": "Professor's Letter",
+    "type": "PM",
+    "cost": 0
+  },
+  "professors-research": {
+    "id": "professors-research",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Professor's Research"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/professors-research.png"
+      }
+    },
+    "name": "Professor's Research",
+    "type": "PM",
+    "cost": 0
+  },
+  "quick-ball": {
+    "id": "quick-ball",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Quick Ball"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/quick-ball.png"
+      }
+    },
+    "name": "Quick Ball",
+    "type": "PM",
+    "cost": 0
+  },
+  "rainbow-energy": {
+    "id": "rainbow-energy",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Rainbow Energy"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/rainbow-energy.png"
+      }
+    },
+    "name": "Rainbow Energy",
+    "type": "PM",
+    "cost": 0
+  },
+  "scoop-up-net": {
+    "id": "scoop-up-net",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Scoop Up Net"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/scoop-up-net.png"
+      }
+    },
+    "name": "Scoop Up Net",
+    "type": "PM",
+    "cost": 0
+  },
+  "munkidori": {
+    "id": "munkidori",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Munkidori"
+        },
+        "type": "PM",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/munkidori.png"
+      }
+    },
+    "name": "Munkidori",
+    "type": "PM",
+    "cost": 1
+  },
+  "toxel": {
+    "id": "toxel",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Toxel"
+        },
+        "type": "PM",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/toxel.png"
+      }
+    },
+    "name": "Toxel",
+    "type": "PM",
+    "cost": 1
+  },
+  "toxtricity": {
+    "id": "toxtricity",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Toxtricity"
+        },
+        "type": "PM",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/toxtricity.png"
+      }
+    },
+    "name": "Toxtricity",
+    "type": "PM",
+    "cost": 1
+  },
+  "tyranitar": {
+    "id": "tyranitar",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Tyranitar"
+        },
+        "type": "PM",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/tyranitar.png"
+      }
+    },
+    "name": "Tyranitar",
+    "type": "PM",
+    "cost": 1
+  },
+  "yveltal": {
+    "id": "yveltal",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Yveltal"
+        },
+        "type": "PM",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/yveltal.png"
+      }
+    },
+    "name": "Yveltal",
+    "type": "PM",
+    "cost": 1
+  },
+  "guzzlord": {
+    "id": "guzzlord",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Guzzlord"
+        },
+        "type": "PM",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/guzzlord.png"
+      }
+    },
+    "name": "Guzzlord",
+    "type": "PM",
+    "cost": 1
+  },
+  "guzzlord-2": {
+    "id": "guzzlord-2",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Guzzlord"
+        },
+        "type": "PM",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/guzzlord-2.png"
+      }
+    },
+    "name": "Guzzlord",
+    "type": "PM",
+    "cost": 1
+  },
+  "guzzlord-gx": {
+    "id": "guzzlord-gx",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Guzzlord GX"
+        },
+        "type": "CMDR",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/guzzlord-gx.png"
+      }
+    },
+    "name": "Guzzlord GX",
+    "type": "CMDR",
+    "cost": 1
+  },
+  "hydreigon": {
+    "id": "hydreigon",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Hydreigon"
+        },
+        "type": "PM",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/hydreigon.png"
+      }
+    },
+    "name": "Hydreigon",
+    "type": "PM",
+    "cost": 1
+  },
+  "hydreigon-ex": {
+    "id": "hydreigon-ex",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Hydreigon ex"
+        },
+        "type": "PM",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/hydreigon-ex.png"
+      }
+    },
+    "name": "Hydreigon ex",
+    "type": "PM",
+    "cost": 1
+  },
+  "mega-delphox-ex": {
+    "id": "mega-delphox-ex",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Mega Delphox ex"
+        },
+        "type": "PM",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/mega-delphox-ex.png"
+      }
+    },
+    "name": "Mega Delphox ex",
+    "type": "PM",
+    "cost": 1
+  },
+  "mega-gengar-ex": {
+    "id": "mega-gengar-ex",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Mega Gengar ex"
+        },
+        "type": "PM",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/mega-gengar-ex.png"
+      }
+    },
+    "name": "Mega Gengar ex",
+    "type": "PM",
+    "cost": 1
+  },
+  "hand-destruction": {
+    "id": "hand-destruction",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Hand Destruction"
+        },
+        "type": "YD",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/hand-destruction.png"
+      }
+    },
+    "name": "Hand Destruction",
+    "type": "YD",
+    "cost": 0
+  },
+  "heart-of-the-underdog": {
+    "id": "heart-of-the-underdog",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Heart of the Underdog"
+        },
+        "type": "YD",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/heart-of-the-underdog.png"
+      }
+    },
+    "name": "Heart of the Underdog",
+    "type": "YD",
+    "cost": 0
+  },
+  "magical-mallet": {
+    "id": "magical-mallet",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Magical Mallet"
+        },
+        "type": "YD",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/magical-mallet.png"
+      }
+    },
+    "name": "Magical Mallet",
+    "type": "YD",
+    "cost": 0
+  },
+  "monster-reborn": {
+    "id": "monster-reborn",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Monster Reborn"
+        },
+        "type": "YD",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/monster-reborn.png"
+      }
+    },
+    "name": "Monster Reborn",
+    "type": "YD",
+    "cost": 0
+  },
+  "pot-of-acquisitiveness": {
+    "id": "pot-of-acquisitiveness",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Pot of Acquisitiveness"
+        },
+        "type": "YD",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/pot-of-acquisitiveness.png"
+      }
+    },
+    "name": "Pot of Acquisitiveness",
+    "type": "YD",
+    "cost": 0
+  },
+  "reload": {
+    "id": "reload",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Reload"
+        },
+        "type": "YD",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/reload.png"
+      }
+    },
+    "name": "Reload",
+    "type": "YD",
+    "cost": 0
+  },
+  "white-elephants-gift": {
+    "id": "white-elephants-gift",
+    "face": {
+      "front": {
+        "name": {
+          "name": "White Elephant's Gift"
+        },
+        "type": "YD",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/white-elephants-gift.png"
+      }
+    },
+    "name": "White Elephant's Gift",
+    "type": "YD",
+    "cost": 0
+  },
+  "foolish-burial": {
+    "id": "foolish-burial",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Foolish Burial"
+        },
+        "type": "YD",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/foolish-burial.png"
+      }
+    },
+    "name": "Foolish Burial",
+    "type": "YD",
+    "cost": 0
+  },
+  "right-arm-of-the-forbidden-one": {
+    "id": "right-arm-of-the-forbidden-one",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Right Arm of the Forbidden One"
+        },
+        "type": "YD",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/right-arm-of-the-forbidden-one.png"
+      }
+    },
+    "name": "Right Arm of the Forbidden One",
+    "type": "YD",
+    "cost": 1
+  },
+  "right-leg-of-the-forbidden-one": {
+    "id": "right-leg-of-the-forbidden-one",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Right Leg of the Forbidden One"
+        },
+        "type": "YD",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/right-leg-of-the-forbidden-one.png"
+      }
+    },
+    "name": "Right Leg of the Forbidden One",
+    "type": "YD",
+    "cost": 1
+  },
+  "left-arm-of-the-forbidden-one": {
+    "id": "left-arm-of-the-forbidden-one",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Left Arm of the Forbidden One"
+        },
+        "type": "YD",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/left-arm-of-the-forbidden-one.png"
+      }
+    },
+    "name": "Left Arm of the Forbidden One",
+    "type": "YD",
+    "cost": 1
+  },
+  "left-leg-of-the-forbidden-one": {
+    "id": "left-leg-of-the-forbidden-one",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Left Leg of the Forbidden One"
+        },
+        "type": "YD",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/left-leg-of-the-forbidden-one.png"
+      }
+    },
+    "name": "Left Leg of the Forbidden One",
+    "type": "YD",
+    "cost": 1
+  },
+  "exodia-the-forbidden-one": {
+    "id": "exodia-the-forbidden-one",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Exodia the Forbidden One"
+        },
+        "type": "YD",
+        "cost": 3,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/exodia-the-forbidden-one.png"
+      }
+    },
+    "name": "Exodia the Forbidden One",
+    "type": "YD",
+    "cost": 3
+  },
+  "number-104-masquerade": {
+    "id": "number-104-masquerade",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Number 104: Masquerade"
+        },
+        "type": "YE",
+        "cost": 4,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/number-104-masquerade.png"
+      }
+    },
+    "name": "Number 104: Masquerade",
+    "type": "YE",
+    "cost": 4
+  },
+  "number-c107-neo-galaxy-eyes-tachyon-dragon": {
+    "id": "number-c107-neo-galaxy-eyes-tachyon-dragon",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Number C107: Neo Galaxy-Eyes Tachyon Dragon"
+        },
+        "type": "YE",
+        "cost": 9,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/number-c107-neo-galaxy-eyes-tachyon-dragon.png"
+      }
+    },
+    "name": "Number C107: Neo Galaxy-Eyes Tachyon Dragon",
+    "type": "YE",
+    "cost": 9
+  },
+  "golden-cloud-beast-malong": {
+    "id": "golden-cloud-beast-malong",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Golden Cloud Beast - Malong"
+        },
+        "type": "YE",
+        "cost": 6,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/golden-cloud-beast-malong.png"
+      }
+    },
+    "name": "Golden Cloud Beast - Malong",
+    "type": "YE",
+    "cost": 6
+  },
+  "lyrilusc-ensemblue-robin": {
+    "id": "lyrilusc-ensemblue-robin",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Lyrilusc - Ensemblue Robin"
+        },
+        "type": "YE",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/lyrilusc-ensemblue-robin.png"
+      }
+    },
+    "name": "Lyrilusc - Ensemblue Robin",
+    "type": "YE",
+    "cost": 1
+  },
+  "zuran-orb": {
+    "id": "zuran-orb",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Zuran Orb"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/zuran-orb.png"
+      }
+    },
+    "name": "Zuran Orb",
+    "type": "PM",
+    "cost": 0
+  },
+  "forest": {
+    "id": "forest",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Forest"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/forest.png"
+      }
+    },
+    "name": "Forest",
+    "type": "PM",
+    "cost": 0
+  },
+  "blood-for-bones": {
+    "id": "blood-for-bones",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Blood for Bones"
+        },
+        "type": "PM",
+        "cost": 4,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/blood-for-bones.png"
+      }
+    },
+    "name": "Blood for Bones",
+    "type": "PM",
+    "cost": 4
+  },
+  "culling-ritual": {
+    "id": "culling-ritual",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Culling Ritual"
+        },
+        "type": "PM",
+        "cost": 4,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/culling-ritual.png"
+      }
+    },
+    "name": "Culling Ritual",
+    "type": "PM",
+    "cost": 4
+  },
+  "diabolic-tutor": {
+    "id": "diabolic-tutor",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Diabolic Tutor"
+        },
+        "type": "PM",
+        "cost": 4,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/diabolic-tutor.png"
+      }
+    },
+    "name": "Diabolic Tutor",
+    "type": "PM",
+    "cost": 4
+  },
+  "dig-up": {
+    "id": "dig-up",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Dig Up"
+        },
+        "type": "PM",
+        "cost": 5,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/dig-up.png"
+      }
+    },
+    "name": "Dig Up",
+    "type": "PM",
+    "cost": 5
+  },
+  "dread-return": {
+    "id": "dread-return",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Dread Return"
+        },
+        "type": "PM",
+        "cost": 4,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/dread-return.png"
+      }
+    },
+    "name": "Dread Return",
+    "type": "PM",
+    "cost": 4
+  },
+  "exsanguinate": {
+    "id": "exsanguinate",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Exsanguinate"
+        },
+        "type": "PM",
+        "cost": 2,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/exsanguinate.png"
+      }
+    },
+    "name": "Exsanguinate",
+    "type": "PM",
+    "cost": 2
+  },
+  "krosan-grip": {
+    "id": "krosan-grip",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Krosan Grip"
+        },
+        "type": "PM",
+        "cost": 3,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/krosan-grip.png"
+      }
+    },
+    "name": "Krosan Grip",
+    "type": "PM",
+    "cost": 3
+  },
+  "live-or-die": {
+    "id": "live-or-die",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Live or Die"
+        },
+        "type": "PM",
+        "cost": 5,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/live-or-die.png"
+      }
+    },
+    "name": "Live or Die",
+    "type": "PM",
+    "cost": 5
+  },
+  "nihil-spellbomb": {
+    "id": "nihil-spellbomb",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Nihil Spellbomb"
+        },
+        "type": "PM",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/nihil-spellbomb.png"
+      }
+    },
+    "name": "Nihil Spellbomb",
+    "type": "PM",
+    "cost": 1
+  },
+  "perennial-behemoth": {
+    "id": "perennial-behemoth",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Perennial Behemoth"
+        },
+        "type": "PM",
+        "cost": 5,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/perennial-behemoth.png"
+      }
+    },
+    "name": "Perennial Behemoth",
+    "type": "PM",
+    "cost": 5
+  },
+  "rise-of-the-dark-realms": {
+    "id": "rise-of-the-dark-realms",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Rise of the Dark Realms"
+        },
+        "type": "PM",
+        "cost": 9,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/rise-of-the-dark-realms.png"
+      }
+    },
+    "name": "Rise of the Dark Realms",
+    "type": "PM",
+    "cost": 9
+  },
+  "skirge-familiar": {
+    "id": "skirge-familiar",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Skirge Familiar"
+        },
+        "type": "PM",
+        "cost": 5,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/skirge-familiar.png"
+      }
+    },
+    "name": "Skirge Familiar",
+    "type": "PM",
+    "cost": 5
+  },
+  "stinkweed-imp": {
+    "id": "stinkweed-imp",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Stinkweed Imp"
+        },
+        "type": "PM",
+        "cost": 3,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/stinkweed-imp.png"
+      }
+    },
+    "name": "Stinkweed Imp",
+    "type": "PM",
+    "cost": 3
+  },
+  "wake-the-dead": {
+    "id": "wake-the-dead",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Wake the Dead"
+        },
+        "type": "PM",
+        "cost": 2,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/wake-the-dead.png"
+      }
+    },
+    "name": "Wake the Dead",
+    "type": "PM",
+    "cost": 2
+  },
+  "uurg-spawn-of-turg": {
+    "id": "uurg-spawn-of-turg",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Uurg, Spawn of Turg"
+        },
+        "type": "PM",
+        "cost": 3,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/uurg-spawn-of-turg.png"
+      }
+    },
+    "name": "Uurg, Spawn of Turg",
+    "type": "PM",
+    "cost": 3
+  },
+  "life-death": {
+    "id": "life-death",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Life // Death"
+        },
+        "type": "PM",
+        "cost": 3,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/life-death.png"
+      }
+    },
+    "name": "Life // Death",
+    "type": "PM",
+    "cost": 3
+  },
+  "the-gitrog-monster": {
+    "id": "the-gitrog-monster",
+    "face": {
+      "front": {
+        "name": {
+          "name": "The Gitrog Monster"
+        },
+        "type": "CMDR",
+        "cost": 5,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/the-gitrog-monster.png"
+      }
+    },
+    "name": "The Gitrog Monster",
+    "type": "CMDR",
+    "cost": 5
   }
 }
