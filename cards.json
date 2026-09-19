@@ -558,5 +558,229 @@
     "name": "Artmage Pact -Awakening-",
     "type": "YD",
     "cost": 0
+  },
+  "ye-stardust-dragon": {
+    "id": "ye-stardust-dragon",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Stardust Dragon"
+        },
+        "type": "YE",
+        "cost": 8,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/stardust-dragon.png"
+      }
+    },
+    "name": "Stardust Dragon",
+    "type": "YE",
+    "cost": 8
+  },
+  "ye-time-thief-redoer": {
+    "id": "ye-time-thief-redoer",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Time Thief Redoer"
+        },
+        "type": "YE",
+        "cost": 4,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/time-thief-redoer.png"
+      }
+    },
+    "name": "Time Thief Redoer",
+    "type": "YE",
+    "cost": 4
+  },
+  "ye-vallon-the-super-psy-skyblaster": {
+    "id": "ye-vallon-the-super-psy-skyblaster",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Vallon, the Super Psy Skyblaster"
+        },
+        "type": "YE",
+        "cost": 5,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/vallon-the-super-psy-skyblaster.png"
+      }
+    },
+    "name": "Vallon, the Super Psy Skyblaster",
+    "type": "YE",
+    "cost": 5
+  },
+  "ye-arc-rebellion-xyz-dragon": {
+    "id": "ye-arc-rebellion-xyz-dragon",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Arc Rebellion Xyz Dragon"
+        },
+        "type": "YE",
+        "cost": 5,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/arc-rebellion-xyz-dragon.png"
+      }
+    },
+    "name": "Arc Rebellion Xyz Dragon",
+    "type": "YE",
+    "cost": 5
+  },
+  "ye-artmage-diactorus": {
+    "id": "ye-artmage-diactorus",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Artmage Diactorus"
+        },
+        "type": "YE",
+        "cost": 8,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/artmage-diactorus.png"
+      }
+    },
+    "name": "Artmage Diactorus",
+    "type": "YE",
+    "cost": 8
+  },
+  "ye-black-rose-moonlight-dragon": {
+    "id": "ye-black-rose-moonlight-dragon",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Black Rose Moonlight Dragon"
+        },
+        "type": "YE",
+        "cost": 7,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/black-rose-moonlight-dragon.png"
+      }
+    },
+    "name": "Black Rose Moonlight Dragon",
+    "type": "YE",
+    "cost": 7
+  },
+  "ye-crystal-wing-synchro-dragon": {
+    "id": "ye-crystal-wing-synchro-dragon",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Crystal Wing Synchro Dragon"
+        },
+        "type": "YE",
+        "cost": 8,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/crystal-wing-synchro-dragon.png"
+      }
+    },
+    "name": "Crystal Wing Synchro Dragon",
+    "type": "YE",
+    "cost": 8
+  },
+  "ye-evilwarm-exciton-knight": {
+    "id": "ye-evilwarm-exciton-knight",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Evilswarm Exciton Knight"
+        },
+        "type": "YE",
+        "cost": 4,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/evilwarm-exciton-knight.png"
+      }
+    },
+    "name": "Evilswarm Exciton Knight",
+    "type": "YE",
+    "cost": 4
+  },
+  "ye-fossil-machine-skull-wagon": {
+    "id": "ye-fossil-machine-skull-wagon",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Fossil Machine Skull Wagon"
+        },
+        "type": "YE",
+        "cost": 6,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/fossil-machine-skull-wagon.png"
+      }
+    },
+    "name": "Fossil Machine Skull Wagon",
+    "type": "YE",
+    "cost": 6
+  },
+  "ye-fossil-warrior-skull-knight": {
+    "id": "ye-fossil-warrior-skull-knight",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Fossil Warrior Skull Knight"
+        },
+        "type": "YE",
+        "cost": 6,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/fossil-warrior-skull-knight.png"
+      }
+    },
+    "name": "Fossil Warrior Skull Knight",
+    "type": "YE",
+    "cost": 6
+  },
+  "ye-granguignol-the-dusk-dragon": {
+    "id": "ye-granguignol-the-dusk-dragon",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Granguignol the Dusk Dragon"
+        },
+        "type": "YE",
+        "cost": 8,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/granguignol-the-dusk-dragon.png"
+      }
+    },
+    "name": "Granguignol the Dusk Dragon",
+    "type": "YE",
+    "cost": 8
+  },
+  "ye-juraishin-the-cursed-thunder-god": {
+    "id": "ye-juraishin-the-cursed-thunder-god",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Juraishin, the Cursed Thunder God"
+        },
+        "type": "YE",
+        "cost": 11,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/juraishin-the-cursed-thunder-god.png"
+      }
+    },
+    "name": "Juraishin, the Cursed Thunder God",
+    "type": "YE",
+    "cost": 11
+  },
+  "ye-number-106-giant-hand": {
+    "id": "ye-number-106-giant-hand",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Number 106: Giant Hand"
+        },
+        "type": "YE",
+        "cost": 4,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/number-106-giant-hand.png"
+      }
+    },
+    "name": "Number 106: Giant Hand",
+    "type": "YE",
+    "cost": 4
+  },
+  "ye-predaplant-dragostapelia": {
+    "id": "ye-predaplant-dragostapelia",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Predaplant Dragostapelia"
+        },
+        "type": "YE",
+        "cost": 8,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/predaplant-dragostapelia.png"
+      }
+    },
+    "name": "Predaplant Dragostapelia",
+    "type": "YE",
+    "cost": 8
   }
 }
