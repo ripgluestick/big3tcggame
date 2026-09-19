@@ -782,5 +782,469 @@
     "name": "Predaplant Dragostapelia",
     "type": "YE",
     "cost": 8
+  },
+  "basic-steel-energy": {
+    "id": "basic-steel-energy",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Basic Steel Energy"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/basic-steel-energy.png"
+      }
+    },
+    "name": "Basic Steel Energy",
+    "type": "PM",
+    "cost": 0
+  },
+  "basic-water-energy": {
+    "id": "basic-water-energy",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Basic Water Energy"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/basic-water-energy.png"
+      }
+    },
+    "name": "Basic Water Energy",
+    "type": "PM",
+    "cost": 0
+  },
+  "briar": {
+    "id": "briar",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Briar"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/briar.png"
+      }
+    },
+    "name": "Briar",
+    "type": "PM",
+    "cost": 0
+  },
+  "buddy-buddy-poffin": {
+    "id": "buddy-buddy-poffin",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Buddy-Buddy Poffin"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/buddy-buddy-poffin.png"
+      }
+    },
+    "name": "Buddy-Buddy Poffin",
+    "type": "PM",
+    "cost": 0
+  },
+  "bug-catching-set": {
+    "id": "bug-catching-set",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Bug Catching Set"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/bug-catching-set.png"
+      }
+    },
+    "name": "Bug Catching Set",
+    "type": "PM",
+    "cost": 0
+  },
+  "call-bell": {
+    "id": "call-bell",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Call Bell"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/call-bell.png"
+      }
+    },
+    "name": "Call Bell",
+    "type": "PM",
+    "cost": 0
+  },
+  "colresss-experiment": {
+    "id": "colresss-experiment",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Colress's Experiment"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/colresss-experiment.png"
+      }
+    },
+    "name": "Colress's Experiment",
+    "type": "PM",
+    "cost": 0
+  },
+  "colresss-tenacity": {
+    "id": "colresss-tenacity",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Colress's Tenacity"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/colresss-tenacity.png"
+      }
+    },
+    "name": "Colress's Tenacity",
+    "type": "PM",
+    "cost": 0
+  },
+  "double-dragon-energy": {
+    "id": "double-dragon-energy",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Double Dragon Energy"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/double-dragon-energy.png"
+      }
+    },
+    "name": "Double Dragon Energy",
+    "type": "PM",
+    "cost": 0
+  },
+  "earthen-vessel": {
+    "id": "earthen-vessel",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Earthen Vessel"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/earthen-vessel.png"
+      }
+    },
+    "name": "Earthen Vessel",
+    "type": "PM",
+    "cost": 0
+  },
+  "energy-search-pro": {
+    "id": "energy-search-pro",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Energy Search Pro"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/energy-search-pro.png"
+      }
+    },
+    "name": "Energy Search Pro",
+    "type": "PM",
+    "cost": 0
+  },
+  "hisuian-heavy-ball": {
+    "id": "hisuian-heavy-ball",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Hisuian Heavy Ball"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/hisuian-heavy-ball.png"
+      }
+    },
+    "name": "Hisuian Heavy Ball",
+    "type": "PM",
+    "cost": 0
+  },
+  "iono": {
+    "id": "iono",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Iono"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/iono.png"
+      }
+    },
+    "name": "Iono",
+    "type": "PM",
+    "cost": 0
+  },
+  "basic-dark-energy": {
+    "id": "basic-dark-energy",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Basic Dark Energy"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/basic-dark-energy.png"
+      }
+    },
+    "name": "Basic Dark Energy",
+    "type": "PM",
+    "cost": 0
+  },
+  "basic-electric-energy": {
+    "id": "basic-electric-energy",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Basic Electric Energy"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/basic-electric-energy.png"
+      }
+    },
+    "name": "Basic Electric Energy",
+    "type": "PM",
+    "cost": 0
+  },
+  "basic-fairy-energy": {
+    "id": "basic-fairy-energy",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Basic Fairy Energy"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/basic-fairy-energy.png"
+      }
+    },
+    "name": "Basic Fairy Energy",
+    "type": "PM",
+    "cost": 0
+  },
+  "basic-fighting-energy": {
+    "id": "basic-fighting-energy",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Basic Fighting Energy"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/basic-fighting-energy.png"
+      }
+    },
+    "name": "Basic Fighting Energy",
+    "type": "PM",
+    "cost": 0
+  },
+  "basic-grass-energy": {
+    "id": "basic-grass-energy",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Basic Grass Energy"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/basic-grass-energy.png"
+      }
+    },
+    "name": "Basic Grass Energy",
+    "type": "PM",
+    "cost": 0
+  },
+  "basic-psychic-energy": {
+    "id": "basic-psychic-energy",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Basic Psychic Energy"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/basic-psychic-energy.png"
+      }
+    },
+    "name": "Basic Psychic Energy",
+    "type": "PM",
+    "cost": 0
+  },
+  "lost-blender": {
+    "id": "lost-blender",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Lost Blender"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/lost-blender.png"
+      }
+    },
+    "name": "Lost Blender",
+    "type": "PM",
+    "cost": 0
+  },
+  "lost-city": {
+    "id": "lost-city",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Lost City"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/lost-city.png"
+      }
+    },
+    "name": "Lost City",
+    "type": "PM",
+    "cost": 0
+  },
+  "lost-vacuum": {
+    "id": "lost-vacuum",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Lost Vacuum"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/lost-vacuum.png"
+      }
+    },
+    "name": "Lost Vacuum",
+    "type": "PM",
+    "cost": 0
+  },
+  "mirage-gate": {
+    "id": "mirage-gate",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Mirage Gate"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/mirage-gate.png"
+      }
+    },
+    "name": "Mirage Gate",
+    "type": "PM",
+    "cost": 0
+  },
+  "mist-energy": {
+    "id": "mist-energy",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Mist Energy"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/mist-energy.png"
+      }
+    },
+    "name": "Mist Energy",
+    "type": "PM",
+    "cost": 0
+  },
+  "n": {
+    "id": "n",
+    "face": {
+      "front": {
+        "name": {
+          "name": "N"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/n.png"
+      }
+    },
+    "name": "N",
+    "type": "PM",
+    "cost": 0
+  },
+  "nest-ball": {
+    "id": "nest-ball",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Nest Ball"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/nest-ball.png"
+      }
+    },
+    "name": "Nest Ball",
+    "type": "PM",
+    "cost": 0
+  },
+  "pokestop": {
+    "id": "pokestop",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Pok\u00e9Stop"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/pokestop.png"
+      }
+    },
+    "name": "Pok\u00e9Stop",
+    "type": "PM",
+    "cost": 0
+  },
+  "trekking-shoes": {
+    "id": "trekking-shoes",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Trekking Shoes"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/trekking-shoes.png"
+      }
+    },
+    "name": "Trekking Shoes",
+    "type": "PM",
+    "cost": 0
+  },
+  "ultra-ball": {
+    "id": "ultra-ball",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Ultra Ball"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/ultra-ball.png"
+      }
+    },
+    "name": "Ultra Ball",
+    "type": "PM",
+    "cost": 0
   }
 }
