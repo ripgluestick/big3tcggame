@@ -159,40 +159,40 @@
     "type": "PM",
     "cost": 0
   },
-  "pm-basicfireenergy": {
-    "id": "pm-basicfireenergy",
+  "basic-fire-energy": {
+    "id": "basic-fire-energy",
     "face": {
       "front": {
         "name": {
-          "name": "BasicFireEnergy"
+          "name": "Basic-Fire-Energy"
         },
         "type": "PM",
         "cost": 0,
-        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/BasicFireEnergy.png"
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/Basic-Fire-Energy.png"
       }
     },
-    "name": "BasicFireEnergy",
+    "name": "Basic-Fire-Energy",
     "type": "PM",
     "cost": 0
   },
-  "pm-dragpultex": {
-    "id": "pm-dragpultex",
+  "dragpult-ex": {
+    "id": "dragpult-ex",
     "face": {
       "front": {
         "name": {
-          "name": "DragpultEx"
+          "name": "Dragpult-Ex"
         },
         "type": "PM",
         "cost": 1,
-        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/DragpultEx.png"
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/Dragpult-Ex.png"
       }
     },
-    "name": "DragpultEx",
+    "name": "Dragpult-Ex",
     "type": "PM",
     "cost": 1
   },
-  "pm-drakloak": {
-    "id": "pm-drakloak",
+  "drakloak": {
+    "id": "drakloak",
     "face": {
       "front": {
         "name": {
@@ -207,8 +207,8 @@
     "type": "PM",
     "cost": 1
   },
-  "pm-dreepy": {
-    "id": "pm-dreepy",
+  "dreepy": {
+    "id": "dreepy",
     "face": {
       "front": {
         "name": {
@@ -223,56 +223,56 @@
     "type": "PM",
     "cost": 1
   },
-  "pm-forestsealstone": {
-    "id": "pm-forestsealstone",
+  "forest-seal-stone": {
+    "id": "forest-seal-stone",
     "face": {
       "front": {
         "name": {
-          "name": "Forestsealstone"
+          "name": "Forest-seal-stone"
         },
         "type": "PM",
         "cost": 0,
-        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/Forestsealstone.png"
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/Forest-seal-stone.png"
       }
     },
-    "name": "Forestsealstone",
+    "name": "Forest-seal-stone",
     "type": "PM",
     "cost": 0
   },
-  "pm-lillies": {
-    "id": "pm-lillies",
+  "lillies-determination": {
+    "id": "lillies-determination",
     "face": {
       "front": {
         "name": {
-          "name": "Lillies"
+          "name": "Lillies-determination"
         },
         "type": "PM",
         "cost": 0,
-        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/Lillies.png"
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/lillies-determination.png"
       }
     },
-    "name": "Lillies",
+    "name": "Lillies-determination",
     "type": "PM",
     "cost": 0
   },
-  "pm-masterball": {
-    "id": "pm-masterball",
+  "master-ball": {
+    "id": "master-ball",
     "face": {
       "front": {
         "name": {
-          "name": "Masterball"
+          "name": "Master-ball"
         },
         "type": "PM",
         "cost": 0,
-        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/Masterball.png"
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/Master-ball.png"
       }
     },
-    "name": "Masterball",
+    "name": "Master-ball",
     "type": "PM",
     "cost": 0
   },
-  "yd-blazing-cartesia-the-virtuous": {
-    "id": "yd-blazing-cartesia-the-virtuous",
+  "blazing-cartesia-the-virtuous": {
+    "id": "blazing-cartesia-the-virtuous",
     "face": {
       "front": {
         "name": {
@@ -287,8 +287,8 @@
     "type": "YD",
     "cost": 4
   },
-  "yd-blizzard": {
-    "id": "yd-blizzard",
+  "blizzard": {
+    "id": "blizzard",
     "face": {
       "front": {
         "name": {
@@ -303,8 +303,8 @@
     "type": "YD",
     "cost": 0
   },
-  "yd-dark-hole": {
-    "id": "yd-dark-hole",
+  "dark-hole": {
+    "id": "dark-hole",
     "face": {
       "front": {
         "name": {
@@ -319,8 +319,8 @@
     "type": "YD",
     "cost": 0
   },
-  "yd-droll-and-lock-bird": {
-    "id": "yd-droll-and-lock-bird",
+  "droll-and-lock-bird": {
+    "id": "droll-and-lock-bird",
     "face": {
       "front": {
         "name": {
@@ -335,7 +335,7 @@
     "type": "YD",
     "cost": 1
   },
-  "yd-extra-foolish-burial": {
+  "extra-foolish-burial": {
     "id": "yd-extra-foolish-burial",
     "face": {
       "front": {
@@ -351,8 +351,8 @@
     "type": "YD",
     "cost": 0
   },
-  "yd-ghost-belle-and-haunted-mansion": {
-    "id": "yd-ghost-belle-and-haunted-mansion",
+  "ghost-belle-and-haunted-mansion": {
+    "id": "ghost-belle-and-haunted-mansion",
     "face": {
       "front": {
         "name": {
@@ -367,8 +367,8 @@
     "type": "YD",
     "cost": 3
   },
-  "yd-lava-golem": {
-    "id": "yd-lava-golem",
+  "lava-golem": {
+    "id": "lava-golem",
     "face": {
       "front": {
         "name": {
@@ -383,8 +383,8 @@
     "type": "YD",
     "cost": 8
   },
-  "yd-medius-the-pure": {
-    "id": "yd-medius-the-pure",
+  "medius-the-pure": {
+    "id": "medius-the-pure",
     "face": {
       "front": {
         "name": {
@@ -399,8 +399,8 @@
     "type": "YD",
     "cost": 4
   },
-  "yd-mulcharmy-purulia": {
-    "id": "yd-mulcharmy-purulia",
+  "mulcharmy-purulia": {
+    "id": "mulcharmy-purulia",
     "face": {
       "front": {
         "name": {
@@ -415,8 +415,8 @@
     "type": "YD",
     "cost": 4
   },
-  "yd-nibiru-the-primal-being": {
-    "id": "yd-nibiru-the-primal-being",
+  "nibiru-the-primal-being": {
+    "id": "nibiru-the-primal-being",
     "face": {
       "front": {
         "name": {
@@ -431,8 +431,8 @@
     "type": "YD",
     "cost": 11
   },
-  "yd-artmage-academic-arcane-arts-acropolis": {
-    "id": "yd-artmage-academic-arcane-arts-acropolis",
+  "artmage-academic-arcane-arts-acropolis": {
+    "id": "artmage-academic-arcane-arts-acropolis",
     "face": {
       "front": {
         "name": {
@@ -447,8 +447,8 @@
     "type": "YD",
     "cost": 0
   },
-  "yd-artmage-artwork-succession": {
-    "id": "yd-artmage-artwork-succession",
+  "artmage-artwork-succession": {
+    "id": "artmage-artwork-succession",
     "face": {
       "front": {
         "name": {
@@ -463,8 +463,8 @@
     "type": "YD",
     "cost": 0
   },
-  "yd-artmage-graflare": {
-    "id": "yd-artmage-graflare",
+  "artmage-graflare": {
+    "id": "artmage-graflare",
     "face": {
       "front": {
         "name": {
@@ -479,8 +479,8 @@
     "type": "YD",
     "cost": 5
   },
-  "yd-artmage-litera": {
-    "id": "yd-artmage-litera",
+  "artmage-litera": {
+    "id": "artmage-litera",
     "face": {
       "front": {
         "name": {
@@ -495,8 +495,8 @@
     "type": "YD",
     "cost": 3
   },
-  "yd-artmage-power-patron": {
-    "id": "yd-artmage-power-patron",
+  "artmage-power-patron": {
+    "id": "artmage-power-patron",
     "face": {
       "front": {
         "name": {
@@ -511,8 +511,8 @@
     "type": "YD",
     "cost": 1
   },
-  "yd-artmage-vandalism-assault": {
-    "id": "yd-artmage-vandalism-assault",
+  "artmage-vandalism-assault": {
+    "id": "artmage-vandalism-assault",
     "face": {
       "front": {
         "name": {
@@ -527,8 +527,8 @@
     "type": "YD",
     "cost": 0
   },
-  "yd-artmage-varnish-alteration": {
-    "id": "yd-artmage-varnish-alteration",
+  "artmage-varnish-alteration": {
+    "id": "artmage-varnish-alteration",
     "face": {
       "front": {
         "name": {
@@ -543,8 +543,8 @@
     "type": "YD",
     "cost": 0
   },
-  "yd-artmage-pact-awakening": {
-    "id": "yd-artmage-pact-awakening",
+  "artmage-pact-awakening": {
+    "id": "artmage-pact-awakening",
     "face": {
       "front": {
         "name": {
@@ -559,8 +559,8 @@
     "type": "YD",
     "cost": 0
   },
-  "ye-stardust-dragon": {
-    "id": "ye-stardust-dragon",
+  "stardust-dragon": {
+    "id": "stardust-dragon",
     "face": {
       "front": {
         "name": {
@@ -575,8 +575,8 @@
     "type": "YE",
     "cost": 8
   },
-  "ye-time-thief-redoer": {
-    "id": "ye-time-thief-redoer",
+  "time-thief-redoer": {
+    "id": "time-thief-redoer",
     "face": {
       "front": {
         "name": {
@@ -591,8 +591,8 @@
     "type": "YE",
     "cost": 4
   },
-  "ye-vallon-the-super-psy-skyblaster": {
-    "id": "ye-vallon-the-super-psy-skyblaster",
+  "vallon-the-super-psy-skyblaster": {
+    "id": "vallon-the-super-psy-skyblaster",
     "face": {
       "front": {
         "name": {
@@ -607,8 +607,8 @@
     "type": "YE",
     "cost": 5
   },
-  "ye-arc-rebellion-xyz-dragon": {
-    "id": "ye-arc-rebellion-xyz-dragon",
+  "arc-rebellion-xyz-dragon": {
+    "id": "arc-rebellion-xyz-dragon",
     "face": {
       "front": {
         "name": {
@@ -623,8 +623,8 @@
     "type": "YE",
     "cost": 5
   },
-  "ye-artmage-diactorus": {
-    "id": "ye-artmage-diactorus",
+  "artmage-diactorus": {
+    "id": "artmage-diactorus",
     "face": {
       "front": {
         "name": {
@@ -639,8 +639,8 @@
     "type": "YE",
     "cost": 8
   },
-  "ye-black-rose-moonlight-dragon": {
-    "id": "ye-black-rose-moonlight-dragon",
+  "black-rose-moonlight-dragon": {
+    "id": "black-rose-moonlight-dragon",
     "face": {
       "front": {
         "name": {
@@ -655,8 +655,8 @@
     "type": "YE",
     "cost": 7
   },
-  "ye-crystal-wing-synchro-dragon": {
-    "id": "ye-crystal-wing-synchro-dragon",
+  "crystal-wing-synchro-dragon": {
+    "id": "crystal-wing-synchro-dragon",
     "face": {
       "front": {
         "name": {
@@ -671,8 +671,8 @@
     "type": "YE",
     "cost": 8
   },
-  "ye-evilwarm-exciton-knight": {
-    "id": "ye-evilwarm-exciton-knight",
+  "evilwarm-exciton-knight": {
+    "id": "evilwarm-exciton-knight",
     "face": {
       "front": {
         "name": {
@@ -687,8 +687,8 @@
     "type": "YE",
     "cost": 4
   },
-  "ye-fossil-machine-skull-wagon": {
-    "id": "ye-fossil-machine-skull-wagon",
+  "fossil-machine-skull-wagon": {
+    "id": "fossil-machine-skull-wagon",
     "face": {
       "front": {
         "name": {
@@ -703,8 +703,8 @@
     "type": "YE",
     "cost": 6
   },
-  "ye-fossil-warrior-skull-knight": {
-    "id": "ye-fossil-warrior-skull-knight",
+  "fossil-warrior-skull-knight": {
+    "id": "fossil-warrior-skull-knight",
     "face": {
       "front": {
         "name": {
@@ -719,8 +719,8 @@
     "type": "YE",
     "cost": 6
   },
-  "ye-granguignol-the-dusk-dragon": {
-    "id": "ye-granguignol-the-dusk-dragon",
+  "granguignol-the-dusk-dragon": {
+    "id": "granguignol-the-dusk-dragon",
     "face": {
       "front": {
         "name": {
@@ -735,8 +735,8 @@
     "type": "YE",
     "cost": 8
   },
-  "ye-juraishin-the-cursed-thunder-god": {
-    "id": "ye-juraishin-the-cursed-thunder-god",
+  "juraishin-the-cursed-thunder-god": {
+    "id": "juraishin-the-cursed-thunder-god",
     "face": {
       "front": {
         "name": {
@@ -751,8 +751,8 @@
     "type": "YE",
     "cost": 11
   },
-  "ye-number-106-giant-hand": {
-    "id": "ye-number-106-giant-hand",
+  "number-106-giant-hand": {
+    "id": "number-106-giant-hand",
     "face": {
       "front": {
         "name": {
@@ -767,7 +767,7 @@
     "type": "YE",
     "cost": 4
   },
-  "ye-predaplant-dragostapelia": {
+  "predaplant-dragostapelia": {
     "id": "ye-predaplant-dragostapelia",
     "face": {
       "front": {
