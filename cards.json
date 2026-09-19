@@ -1950,5 +1950,165 @@
     "name": "Terramorphic Expanse",
     "type": "PM",
     "cost": 0
+  },
+  "radiant-greninja": {
+    "id": "radiant-greninja",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Radiant Greninja"
+        },
+        "type": "PM",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/radiant-greninja.png"
+      }
+    },
+    "name": "Radiant Greninja",
+    "type": "PM",
+    "cost": 1
+  },
+  "solgaleo-gx": {
+    "id": "solgaleo-gx",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Solgaleo GX"
+        },
+        "type": "PM",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/solgaleo-gx.png"
+      }
+    },
+    "name": "Solgaleo GX",
+    "type": "PM",
+    "cost": 1
+  },
+  "teal-mask-ogerpon-ex": {
+    "id": "teal-mask-ogerpon-ex",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Teal Mask Ogerpon ex"
+        },
+        "type": "PM",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/teal-mask-ogerpon-ex.png"
+      }
+    },
+    "name": "Teal Mask Ogerpon ex",
+    "type": "PM",
+    "cost": 1
+  },
+  "alolan-exeggutor-ex": {
+    "id": "alolan-exeggutor-ex",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Alolan Exeggutor ex"
+        },
+        "type": "PM",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/alolan-exeggutor-ex.png"
+      }
+    },
+    "name": "Alolan Exeggutor ex",
+    "type": "PM",
+    "cost": 1
+  },
+  "comfey": {
+    "id": "comfey",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Comfey"
+        },
+        "type": "PM",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/comfey.png"
+      }
+    },
+    "name": "Comfey",
+    "type": "PM",
+    "cost": 1
+  },
+  "cramorant": {
+    "id": "cramorant",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Cramorant"
+        },
+        "type": "PM",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/cramorant.png"
+      }
+    },
+    "name": "Cramorant",
+    "type": "PM",
+    "cost": 1
+  },
+  "exeggcute": {
+    "id": "exeggcute",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Exeggcute"
+        },
+        "type": "PM",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/exeggcute.png"
+      }
+    },
+    "name": "Exeggcute",
+    "type": "PM",
+    "cost": 1
+  },
+  "giratina-v": {
+    "id": "giratina-v",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Giratina V"
+        },
+        "type": "PM",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/giratina-v.png"
+      }
+    },
+    "name": "Giratina V",
+    "type": "PM",
+    "cost": 1
+  },
+  "giratina-vstar": {
+    "id": "giratina-vstar",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Giratina VSTAR"
+        },
+        "type": "PM",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/giratina-vstar.png"
+      }
+    },
+    "name": "Giratina VSTAR",
+    "type": "PM",
+    "cost": 1
+  },
+  "pikachu-ex": {
+    "id": "pikachu-ex",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Pikachu ex"
+        },
+        "type": "CMDR",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/pikachu-ex.png"
+      }
+    },
+    "name": "Pikachu ex",
+    "type": "CMDR",
+    "cost": 1
   }
 }
