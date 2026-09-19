@@ -1247,28 +1247,28 @@
     "type": "PM",
     "cost": 0
   },
-  "mountain": {
-    "id": "mountain",
+  "basic-mountain": {
+    "id": "basic-mountain",
     "face": {
       "front": {
         "name": {
-          "name": "Mountain"
+          "name": "basic-mountain"
         },
         "type": "PM",
         "cost": 0,
         "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/basic-mountain.png"
       }
     },
-    "name": "Mountain",
+    "name": "basic-mountain",
     "type": "PM",
     "cost": 0
   },
-  "swamp": {
-    "id": "swamp",
+  "basic-swamp": {
+    "id": "basic-swamp",
     "face": {
       "front": {
         "name": {
-          "name": "Swamp"
+          "name": "basic-swamp"
         },
         "type": "PM",
         "cost": 0,
@@ -1327,19 +1327,19 @@
     "type": "PM",
     "cost": 0
   },
-  "island": {
-    "id": "island",
+  "basicisland": {
+    "id": "basic-island",
     "face": {
       "front": {
         "name": {
-          "name": "Island"
+          "name": "basic-island"
         },
         "type": "PM",
         "cost": 0,
         "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/basic-island.png"
       }
     },
-    "name": "Island",
+    "name": "basic-island",
     "type": "PM",
     "cost": 0
   },
