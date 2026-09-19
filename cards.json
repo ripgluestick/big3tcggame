@@ -1256,7 +1256,7 @@
         },
         "type": "PM",
         "cost": 0,
-        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/mountain.png"
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/basic-mountain.png"
       }
     },
     "name": "Mountain",
@@ -1272,7 +1272,7 @@
         },
         "type": "PM",
         "cost": 0,
-        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/swamp.png"
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/basic-swamp.png"
       }
     },
     "name": "Swamp",
@@ -1336,7 +1336,7 @@
         },
         "type": "PM",
         "cost": 0,
-        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/island.png"
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/basic-island.png"
       }
     },
     "name": "Island",
