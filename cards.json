@@ -2703,16 +2703,16 @@
     "type": "PM",
     "cost": 0
   },
-  "forest": {
-    "id": "forest",
+  "basic-forest": {
+    "id": "basic-forest",
     "face": {
       "front": {
         "name": {
-          "name": "Forest"
+          "name": "basic-Forest"
         },
         "type": "PM",
         "cost": 0,
-        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/forest.png"
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/basic-forest.png"
       }
     },
     "name": "Forest",
