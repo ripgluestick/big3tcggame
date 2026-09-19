@@ -671,8 +671,8 @@
     "type": "YE",
     "cost": 8
   },
-  "evilwarm-exciton-knight": {
-    "id": "evilwarm-exciton-knight",
+  "evilswarm-exciton-knight": {
+    "id": "evilswarm-exciton-knight",
     "face": {
       "front": {
         "name": {
