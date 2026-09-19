@@ -1327,7 +1327,7 @@
     "type": "PM",
     "cost": 0
   },
-  "basicisland": {
+  "basic-island": {
     "id": "basic-island",
     "face": {
       "front": {
