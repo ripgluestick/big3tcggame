@@ -183,13 +183,13 @@
           "name": "DragpultEx"
         },
         "type": "PM",
-        "cost": 0,
+        "cost": 1,
         "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/DragpultEx.png"
       }
     },
     "name": "DragpultEx",
     "type": "PM",
-    "cost": 0
+    "cost": 1
   },
   "pm-drakloak": {
     "id": "pm-drakloak",
@@ -199,13 +199,13 @@
           "name": "Drakloak"
         },
         "type": "PM",
-        "cost": 0,
+        "cost": 1,
         "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/Drakloak.png"
       }
     },
     "name": "Drakloak",
     "type": "PM",
-    "cost": 0
+    "cost": 1
   },
   "pm-dreepy": {
     "id": "pm-dreepy",
@@ -215,13 +215,13 @@
           "name": "Dreepy"
         },
         "type": "PM",
-        "cost": 0,
+        "cost": 1,
         "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/Dreepy.png"
       }
     },
     "name": "Dreepy",
     "type": "PM",
-    "cost": 0
+    "cost": 1
   },
   "pm-forestsealstone": {
     "id": "pm-forestsealstone",
@@ -269,6 +269,294 @@
     },
     "name": "Masterball",
     "type": "PM",
+    "cost": 0
+  },
+  "yd-blazing-cartesia-the-virtuous": {
+    "id": "yd-blazing-cartesia-the-virtuous",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Blazing Cartesia, the Virtuous"
+        },
+        "type": "YD",
+        "cost": 4,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/blazing-cartesia-the-virtuous.png"
+      }
+    },
+    "name": "Blazing Cartesia, the Virtuous",
+    "type": "YD",
+    "cost": 4
+  },
+  "yd-blizzard": {
+    "id": "yd-blizzard",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Blizzard"
+        },
+        "type": "YD",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/blizzard.png"
+      }
+    },
+    "name": "Blizzard",
+    "type": "YD",
+    "cost": 0
+  },
+  "yd-dark-hole": {
+    "id": "yd-dark-hole",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Dark Hole"
+        },
+        "type": "YD",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/dark-hole.png"
+      }
+    },
+    "name": "Dark Hole",
+    "type": "YD",
+    "cost": 0
+  },
+  "yd-droll-and-lock-bird": {
+    "id": "yd-droll-and-lock-bird",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Droll & Lock Bird"
+        },
+        "type": "YD",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/droll-and-lock-bird.png"
+      }
+    },
+    "name": "Droll & Lock Bird",
+    "type": "YD",
+    "cost": 1
+  },
+  "yd-extra-foolish-burial": {
+    "id": "yd-extra-foolish-burial",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Extra-Foolish Burial"
+        },
+        "type": "YD",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/extra-foolish-burial.png"
+      }
+    },
+    "name": "Extra-Foolish Burial",
+    "type": "YD",
+    "cost": 0
+  },
+  "yd-ghost-belle-and-haunted-mansion": {
+    "id": "yd-ghost-belle-and-haunted-mansion",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Ghost Belle & Haunted Mansion"
+        },
+        "type": "YD",
+        "cost": 3,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/ghost-belle-and-haunted-mansion.png"
+      }
+    },
+    "name": "Ghost Belle & Haunted Mansion",
+    "type": "YD",
+    "cost": 3
+  },
+  "yd-lava-golem": {
+    "id": "yd-lava-golem",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Lava Golem"
+        },
+        "type": "YD",
+        "cost": 8,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/lava-golem.png"
+      }
+    },
+    "name": "Lava Golem",
+    "type": "YD",
+    "cost": 8
+  },
+  "yd-medius-the-pure": {
+    "id": "yd-medius-the-pure",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Medius the Pure"
+        },
+        "type": "YD",
+        "cost": 4,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/medius-the-pure.png"
+      }
+    },
+    "name": "Medius the Pure",
+    "type": "YD",
+    "cost": 4
+  },
+  "yd-mulcharmy-purulia": {
+    "id": "yd-mulcharmy-purulia",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Mulcharmy Purulia"
+        },
+        "type": "YD",
+        "cost": 4,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/mulcharmy-purulia.png"
+      }
+    },
+    "name": "Mulcharmy Purulia",
+    "type": "YD",
+    "cost": 4
+  },
+  "yd-nibiru-the-primal-being": {
+    "id": "yd-nibiru-the-primal-being",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Nibiru, the Primal Being"
+        },
+        "type": "YD",
+        "cost": 11,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/nibiru-the-primal-being.png"
+      }
+    },
+    "name": "Nibiru, the Primal Being",
+    "type": "YD",
+    "cost": 11
+  },
+  "yd-artmage-academic-arcane-arts-acropolis": {
+    "id": "yd-artmage-academic-arcane-arts-acropolis",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Artmage Academic Arcane Arts Acropolis"
+        },
+        "type": "YD",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/artmage-academic-arcane-arts-acropolis.png"
+      }
+    },
+    "name": "Artmage Academic Arcane Arts Acropolis",
+    "type": "YD",
+    "cost": 0
+  },
+  "yd-artmage-artwork-succession": {
+    "id": "yd-artmage-artwork-succession",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Artmage Masterwork -Succession-"
+        },
+        "type": "YD",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/artmage-artwork-succession.png"
+      }
+    },
+    "name": "Artmage Masterwork -Succession-",
+    "type": "YD",
+    "cost": 0
+  },
+  "yd-artmage-graflare": {
+    "id": "yd-artmage-graflare",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Artmage Graflare"
+        },
+        "type": "YD",
+        "cost": 5,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/artmage-graflare.png"
+      }
+    },
+    "name": "Artmage Graflare",
+    "type": "YD",
+    "cost": 5
+  },
+  "yd-artmage-litera": {
+    "id": "yd-artmage-litera",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Artmage Litera"
+        },
+        "type": "YD",
+        "cost": 3,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/artmage-litera.png"
+      }
+    },
+    "name": "Artmage Litera",
+    "type": "YD",
+    "cost": 3
+  },
+  "yd-artmage-power-patron": {
+    "id": "yd-artmage-power-patron",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Artmage Power Patron"
+        },
+        "type": "YD",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/artmage-power-patron.png"
+      }
+    },
+    "name": "Artmage Power Patron",
+    "type": "YD",
+    "cost": 1
+  },
+  "yd-artmage-vandalism-assault": {
+    "id": "yd-artmage-vandalism-assault",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Artmage Vandalism -Assault-"
+        },
+        "type": "YD",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/artmage-vandalism-assault.png"
+      }
+    },
+    "name": "Artmage Vandalism -Assault-",
+    "type": "YD",
+    "cost": 0
+  },
+  "yd-artmage-varnish-alteration": {
+    "id": "yd-artmage-varnish-alteration",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Artmage Varnish -Alteration-"
+        },
+        "type": "YD",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/artmage-varnish-alteration.png"
+      }
+    },
+    "name": "Artmage Varnish -Alteration-",
+    "type": "YD",
+    "cost": 0
+  },
+  "yd-artmage-pact-awakening": {
+    "id": "yd-artmage-pact-awakening",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Artmage Pact -Awakening-"
+        },
+        "type": "YD",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/artmage-pact-awakening.png"
+      }
+    },
+    "name": "Artmage Pact -Awakening-",
+    "type": "YD",
     "cost": 0
   }
 }
