@@ -1115,7 +1115,7 @@
         "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/basic-swamp.png"
       }
     },
-    "name": "Swamp",
+    "name": "basic-swamp",
     "type": "PM",
     "cost": 0
   },
@@ -2708,14 +2708,14 @@
     "face": {
       "front": {
         "name": {
-          "name": "basic-Forest"
+          "name": "basic-forest"
         },
         "type": "PM",
         "cost": 0,
         "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/basic-forest.png"
       }
     },
-    "name": "Forest",
+    "name": "basic-forest",
     "type": "PM",
     "cost": 0
   },
