@@ -120,6 +120,14 @@
                   "direction": "row",
                   "content": [
                     {
+                      "section": "MTGCreatures"
+                    }
+                  ]
+                },
+                {
+                  "direction": "row",
+                  "content": [
+                    {
                       "section": "CMDR"
                     }
                   ]
@@ -140,6 +148,13 @@
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
+            "noAutoPayTo": true
+          },
+          "MTGCreatures": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "displayedTitle": "MTG Creatures",
             "noAutoPayTo": true
           },
           "ActivePokemon": {
@@ -296,6 +311,7 @@
         "customSections": [
           "PrizeCards",
           "LostZone",
+          "MTGCreatures",
           "YD",
           "YE",
           "ActivePokemon",
