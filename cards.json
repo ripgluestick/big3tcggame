@@ -2303,8 +2303,8 @@
     "type": "PM",
     "cost": 1
   },
-  "guzzlord": {
-    "id": "guzzlord",
+  "guzzlord-1": {
+    "id": "guzzlord-1",
     "face": {
       "front": {
         "name": {
@@ -2312,7 +2312,7 @@
         },
         "type": "PM",
         "cost": 1,
-        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/guzzlord.png"
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/guzzlord-1.png"
       }
     },
     "name": "Guzzlord",
