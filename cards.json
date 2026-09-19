@@ -1918,5 +1918,37 @@
     "name": "Blasphemous Act",
     "type": "PM",
     "cost": 9
+  },
+  "exotic-orchard": {
+    "id": "exotic-orchard",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Exotic Orchard"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/exotic-orchard.png"
+      }
+    },
+    "name": "Exotic Orchard",
+    "type": "PM",
+    "cost": 0
+  },
+  "terramorphic-expanse": {
+    "id": "terramorphic-expanse",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Terramorphic Expanse"
+        },
+        "type": "PM",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/ripgluestick/big3tcggame/main/terramorphic-expanse.png"
+      }
+    },
+    "name": "Terramorphic Expanse",
+    "type": "PM",
+    "cost": 0
   }
 }
