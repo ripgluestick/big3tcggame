@@ -336,7 +336,7 @@
     "cost": 1
   },
   "extra-foolish-burial": {
-    "id": "yd-extra-foolish-burial",
+    "id": "extra-foolish-burial",
     "face": {
       "front": {
         "name": {
@@ -768,7 +768,7 @@
     "cost": 4
   },
   "predaplant-dragostapelia": {
-    "id": "ye-predaplant-dragostapelia",
+    "id": "predaplant-dragostapelia",
     "face": {
       "front": {
         "name": {
